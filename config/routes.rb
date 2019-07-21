@@ -32,8 +32,21 @@ Rails.application.routes.draw do
 
   get 'simple_pages/index'
     
-  get '/rules-warnings', to: redirect('/faq', status: 301)
+  get '/rules-warnings/', to: redirect('/faqs', status: 301)
     
-  get '/Haunted-Houses-Near-Me', to: redirect('/attrations', status: 301)
+  get '/faq/', to: redirect('/faqs', status: 301)
+    
+  get '/Haunted-Houses-Near-Me/', to: redirect('/attractions', status: 301)
+    
+  get '/manor-hill-tavern-haunt-tour/', to: redirect('/attractions', status: 301)
+    
+  get '/history/', to: redirect('/', status: 301)
+    
+  get '/directions/', to: redirect('/attractions', status: 301)
+   
+  get '/manor-hill-tavern-haunt-tour/', to: redirect('/', status: 301)
+    
+  get '/polarbearplunge/', to: redirect('/', status: 301)
 
+  get '/media/', to: redirect('/photos', status: 301)
 end

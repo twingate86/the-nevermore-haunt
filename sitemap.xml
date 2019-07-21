@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
 <url>
-<loc>https://www.thenevermorehaunt.com</loc>
+<loc>https://thenevermorehaunt.com</loc>
 <lastmod>2019-06-20T00:45:42+00:00</lastmod>
 <priority>1.00</priority>
 <changefreq>daily</changefreq>
 </url>
 
 <url>
-<loc>https://www.thenevermorehaunt.com/attractions</loc>
+<loc>https://thenevermorehaunt.com/attractions</loc>
 <lastmod>2019-06-21T00:315:42+00:00</lastmod>
 <priority>0.80</priority>
 <changefreq>daily</changefreq>    
 </url>
 
 <url>
-<loc>https://www.thenevermorehaunt.com/hours</loc>
+<loc>https://thenevermorehaunt.com/hours</loc>
 <lastmod>2019-06-21T00:315:42+00:00</lastmod>
 <priority>0.80</priority>
 <changefreq>daily</changefreq>
 </url>
 
 <url>
-<loc>https://www.thenevermorehaunt.com/directions</loc>
+<loc>https://thenevermorehaunt.com/directions</loc>
 <lastmod>2019-06-21T00:315:42+00:00</lastmod>
 <priority>0.20</priority>
 <changefreq>daily</changefreq>
@@ -30,7 +30,7 @@
 
 <url>
 <loc>
-https://www.thenevermorehaunt.com/photos</loc>
+https://thenevermorehaunt.com/photos</loc>
 <lastmod>2019-06-21T00:315:42+00:00</lastmod>
 <priority>0.10</priority>
 <changefreq>daily</changefreq>
@@ -38,7 +38,7 @@ https://www.thenevermorehaunt.com/photos</loc>
 
 <url>
 <loc>
-https://www.thenevermorehaunt.com/faq</loc>
+https://thenevermorehaunt.com/faqs</loc>
 <lastmod>2019-06-21T00:315:42+00:00</lastmod>
 <priority>0.10</priority>
 <changefreq>daily</changefreq>
@@ -46,7 +46,7 @@ https://www.thenevermorehaunt.com/faq</loc>
     
 <url>
 <loc>
-https://www.thenevermorehaunt.com/tickets</loc>
+https://thenevermorehaunt.com/tickets</loc>
 <lastmod>2019-06-21T00:315:42+00:00</lastmod>
 <priority>0.10</priority>
 <changefreq>daily</changefreq>
