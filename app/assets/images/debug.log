@@ -1,2 +1,4 @@
 [0717/215821:ERROR:connection.cc(1060)] DOMStorageDatabase sqlite error 14, errno -2: unable to open database file, sql: -- sqlite3_open()
 [0717/215821:ERROR:dom_storage_database.cc(163)] Unable to open DOM storage database at C:\Users\thomw\AppData\Local\Temp\cep_cache\PHXS_18.1.1_com.adobe.ccx.fnft\Local Storage\file__0.localstorage error: sql::Connection has no connection.
+[0721/164217:ERROR:connection.cc(1060)] DOMStorageDatabase sqlite error 14, errno -2: unable to open database file, sql: -- sqlite3_open()
+[0721/164217:ERROR:dom_storage_database.cc(163)] Unable to open DOM storage database at C:\Users\thomw\AppData\Local\Temp\cep_cache\PHXS_18.1.1_com.adobe.ccx.fnft\Local Storage\file__0.localstorage error: sql::Connection has no connection.
