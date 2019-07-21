@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <html lang="en">
+    <head>
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            <link rel="canonical" href="https://www.thenevermorehaunt.com" />
+            <meta name="description" content="Baltimore Maryland's most unqiue and terrifying haunted house. The scariest haunted house in Baltimore">
+            <meta name="author" content="The Nevermore Haunt">
+            <meta name="keywords" content="Haunted House, Haunted Houses near me, Things to do, Baltimore, horror, Haunted Houses near me, Baltimore Haunted House, Maryland Haunted House, Haunted House, Scariest haunted house">
+            <title>The Nevermore Haunt - Baltimore's Haunted House</title>
+            <title>The Nevermore Haunt</title>
+
+            <%= favicon_link_tag asset_path('icon.png'), :rel => 'icon', :type =>  'image/png' %>
+            
+            <!-- Google Tag Manager -->
+            <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-5CFWQG4');</script>
+            <!-- End Google Tag Manager -->
+            
+            <!--Organizational Schema -->
+            <script type="application/ld+json">
+            {
+              "@context": "https://schema.org",
+              "@type": "Event",
+              "image" : "https://www.thenevermorehaunt.com/img/2018-mask.jpg",
+              "description" : "Baltimore's Most Unique and Terrifying Haunted House",
+              "url": "https://www.thenevermorehaunt.com",
+              "location": {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Baltimore",
+                  "addressRegion": "MD",
+                  "postalCode": "21202",
+                  "streetAddress": "450 Mott St."
+                },
+                "logo": "https://www.thenevermorehaunt.com/img/icon.png",
+                "name": "The Nevermore Haunt",
+                "url": "https://www.thenevermorehaunt.com"
+              },
+              "name": "The Nevermore Haunt",
+              "offers": {
+                "@type": "Offer",
+                "price": "25.00",
+                "priceCurrency": "USD",
+                "availability" : "http://schema.org/LimitedAvailability",
+                "validFrom" : "2019-6-20T00:40",
+                "url": "https://www.thenevermorehaunt.com/tickets/",
+                "sameAs" : [ "https://www.facebook.com/thenevermorehaunt/",
+                "https://twitter.com/nevermorebmore",
+                "https://www.instagram.com/nevermore.baltimore/"]
+              },
+              "startDate": "2019-10-4T21:00",
+              "endDate" : "2019-11-2T23:00",
+              "aggregateRating":
+                {"@type": "AggregateRating",
+                 "ratingValue": "4.9",
+                 "reviewCount": "137"
+                 }
+            }
+            </script>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+            <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+            <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+            <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
+            <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+            <%= csrf_meta_tags %>
+            <link rel="shortcut icon" href="/app/assets/images/icon.png"/>
+        </head>
+    </head>
+
+    <body>
+
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+            <div class="row drop-nav-row">
+                <div class="col-2 col-lg-12">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav mr-auto">
+                            <%= link_to "Home", root_path %>
+                            <%= link_to "Attractions", attractions_path %>
+                            <%= link_to "Directions", directions_path %>
+                            <%= link_to "Photos", photos_path %>    
+                            <%= link_to "FAQ", faqs_path %>
+                            <%= link_to "Tickets", tickets_path %>
+                            
+
+                            <% if user_signed_in? %>
+                            <%= link_to('Logout', destroy_user_session_path, method: :delete ) %>
+                            <% else %>
+                            <!--<%= link_to('Login', new_user_session_path ) %>-->
+                            <% end %>
+                            
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-8 col-lg-12 brand-col"><a class="navbar-brand" href="#"><%= image_tag("logo-primary.png", :class => "navbar-logo") %></a></div>
+
+                <div class="col-2 buy-ticket-col"><!--<button class="btn btn-primary spooky-button ticket-button">
+<h2>Buy <i class="fas fa-ticket-alt"></i> </h2>
+</button>--></div>
+
+            </div>
+
+
+
+
+        </nav>
+
+        <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+<a class="navbar-brand" href="#"><%= image_tag("logo-primary.png", :class => "navbar-logo") %></a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse text-right" id="navbarNavAltMarkup">
+<div class="navbar-nav ml-auto">
+<a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+<a class="nav-item nav-link" href="#">Features</a>
+<a class="nav-item nav-link" href="#">Pricing</a>
+<a class="nav-item nav-link disabled" href="#">Disabled</a>
+</div>
+</div>
+</nav>-->
+
+        <%= render 'phrasing/initializer' %> 
+        <% if notice %>
+            <p class="notice"><%= notice %></p>
+        <% end %>
+        <% if alert %>
+            <p class="alert"><%= alert %></p>
+        <% end %>
+        <%= yield %>
+
+        <footer class="page-footer">
+            <div class="text-center">
+                <p>The Nevermore Haunt</p>
+                <p>450 Mott St. <br> Baltimore, MD <br> 410.696.3313 <br> info@thenevermorehaunt.com</p></div>
+            <div class="footer-copyright text-center py-3">© 2019 Engineered Fear Productions, LLC
+            </div>     
+
+        </footer>
+
+
+    </body>
+
+</html>

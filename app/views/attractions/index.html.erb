@@ -1,0 +1,72 @@
+<p id="notice"><%= notice %></p>
+
+
+
+<div class="container sub-page">
+
+    <h1>Attractions</h1>
+    <br><br>
+    <div class="attractions-about">
+        <p><%= phrase('nevermore-general-about') %></p>
+    </div>
+    <div class="row card-row">
+        <div class="col-12 col-lg-4 card-col">
+            <div class="card-container">
+                <h2>The Nevermore Haunt</h2>
+                <div class="card">
+                    <div class="side"><%= image_tag("patient.jpg", :class => "card-img") %>
+                    </div>
+                    <div class="side back"><p><%= phrase('attractions-nevermore-description') %></p></div>
+                </div>
+            </div>
+            <div class="card-mobile-caption">
+            <p><%= phrase('attractions-nevermore-description') %></p>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4 card-col">
+            <div class="card-container">
+                <h2>Isaac's Maleficent Side Show</h2>
+                <div class="card">
+                    <div class="side"><%= image_tag("pajama-man.jpg", :class => "card-img") %></div>
+                    <div class="side back"><p><%= phrase('attractions-sideshow-description') %></p></div>
+                </div>
+            </div>
+            <div class="card-mobile-caption">
+            <p><%= phrase('attractions-sideshow-description') %></p>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4 card-col">
+            <div class="card-container">
+                <h2>Food &amp; Drink</h2>
+                <div class="card">
+                    <div class="side"><%= image_tag("hot-dogs.jpg", :class => "card-img") %></div>
+                    <div class="side back"><p><%= phrase('attractions-food-drink-description') %></p></div>
+                </div>
+            </div>
+            <div class="card-mobile-caption">
+            <p><%= phrase('attractions-sideshow-description') %></p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<br><br>
+<div class="container-fluid warning">
+    <h1>Warning</h1>
+    <h2><%= phrase('warning-body') %></h2>
+</div>
+<br><br>
+<br><br>
+
+    <div class="container seo-blurb">
+        <h1>Baltimore, Maryland's Scariest Haunted House</h1>
+        <h2><%= phrase('home-page-blurb-1-heading') %></h2>
+        <p><%= phrase('home-page-blurb-1-body') %></p>
+        <br><br>
+        <h2><%= phrase('home-page-blurb-2-heading') %></h2>
+        <p><%= phrase('home-page-blurb-2-body') %></p>
+        <br><br>
+        <h2><%= phrase('home-page-blurb-3-heading') %></h2>
+        <p><%= phrase('home-page-blurb-3-body') %></p>
+    </div>
