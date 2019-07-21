@@ -31,5 +31,9 @@ Rails.application.routes.draw do
   #sets homepage for app
 
   get 'simple_pages/index'
+    
+  get '/rules-warnings', to: redirect('/faq', status: 301)
+    
+  get '/Haunted-Houses-Near-Me', to: redirect('/attrations', status: 301)
 
 end
