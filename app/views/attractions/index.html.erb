@@ -10,7 +10,7 @@
         <p><%= phrase('nevermore-general-about') %></p>
     </div>
     <div class="row card-row">
-        <div class="col-12 col-lg-4 card-col">
+        <div class="col-12 col-md-4 card-col">
             <div class="card-container">
                 <h2>The Nevermore Haunt</h2>
                 <div class="card">
@@ -19,11 +19,8 @@
                     <div class="side back"><p><%= phrase('attractions-nevermore-description') %></p></div>
                 </div>
             </div>
-            <div class="card-mobile-caption">
-            <p><%= phrase('attractions-nevermore-description') %></p>
-            </div>
         </div>
-        <div class="col-12 col-lg-4 card-col">
+        <div class="col-12 col-md-4 card-col">
             <div class="card-container">
                 <h2>Isaac's Maleficent Side Show</h2>
                 <div class="card">
@@ -31,11 +28,8 @@
                     <div class="side back"><p><%= phrase('attractions-sideshow-description') %></p></div>
                 </div>
             </div>
-            <div class="card-mobile-caption">
-            <p><%= phrase('attractions-sideshow-description') %></p>
-            </div>
         </div>
-        <div class="col-12 col-lg-4 card-col">
+        <div class="col-12 col-md-4 card-col">
             <div class="card-container">
                 <h2>Food &amp; Drink</h2>
                 <div class="card">
@@ -43,8 +37,42 @@
                     <div class="side back"><p><%= phrase('attractions-food-drink-description') %></p></div>
                 </div>
             </div>
+        </div>
+
+    </div>
+    <div class="row card-row-mobile">
+        <div class="col-12 col-lg-4 card-col">
+            <div>
+                <h2>The Nevermore Haunt</h2>
+                <div>
+                    <div><%= image_tag("patient.jpg") %>
+                    </div>
+                </div>
+            </div>
             <div class="card-mobile-caption">
-            <p><%= phrase('attractions-sideshow-description') %></p>
+                <p><%= phrase('attractions-nevermore-description') %></p>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4 card-col">
+            <div>
+                <h2>Isaac's Maleficent Side Show</h2>
+                <div>
+                    <div><%= image_tag("pajama-man.jpg") %></div>
+                </div>
+            </div>
+            <div class="card-mobile-caption">
+                <p><%= phrase('attractions-sideshow-description') %></p>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4 card-col">
+            <div>
+                <h2>Food &amp; Drink</h2>
+                <div>
+                    <div><%= image_tag("hot-dogs.jpg") %></div>
+                </div>
+            </div>
+            <div class="card-mobile-caption">
+                <p><%= phrase('attractions-food-drink-description') %></p>
             </div>
         </div>
 
