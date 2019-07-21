@@ -50,4 +50,15 @@ Rails.application.routes.draw do
 
   get '/media/', to: redirect('/photos', status: 301)
     
+  Foo::Application.routes.draw do
+ 
+  constraints(host: /^www\./i) do
+    match '(*any)' => redirect { |params, request|
+      URI.parse(request.url).tap { |uri| uri.host.sub!(/^www\./i, '') }.to_s
+    }
+  end
+ 
+# other routes
+ 
+end
 end
