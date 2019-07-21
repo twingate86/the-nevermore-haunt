@@ -49,4 +49,5 @@ Rails.application.routes.draw do
   get '/polarbearplunge/', to: redirect('/', status: 301)
 
   get '/media/', to: redirect('/photos', status: 301)
+    
 end
