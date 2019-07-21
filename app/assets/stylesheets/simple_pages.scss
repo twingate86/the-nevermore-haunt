@@ -126,8 +126,9 @@ video {
     position:relative; 
     background-color:black; 
     color:#ffffff; 
-    height:54vw; /**! Confirm this works in all browsers**/
+    height:98vw; /**! Confirm this works in all browsers**/
     overflow:hidden; 
+    margin-top: 15%;
 }
 .bg-image     { 
     background-size:cover; 
@@ -393,15 +394,24 @@ label {
 }
 //******** MEDIA QUERIES******** //
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-    
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
     #player {
         display: inherit;
     }
     #player-gif {
         display: none;
     }
+    #page-banner {
+        height: 55vw;
+        margin-top: 5%;
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+
 }
      
 
@@ -428,6 +438,11 @@ label {
         font-size: 1.5em;
         padding: 0 1%;
     }
+    #page-banner {
+        height: 55vw;
+        margin-top: 5%;
+    }
+
         
 }
 
