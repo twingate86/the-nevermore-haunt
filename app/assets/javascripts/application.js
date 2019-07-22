@@ -35,24 +35,24 @@
 
     // Map API //
 function initMap() {
-      var myLatLng = {lat: 39.2969327, lng: -76.6064638};
+      var myLatLng = {lat: 39.2967685, lng: -76.6028709};
 
       var map = new google.maps.Map(document.getElementById('map'), {
         zoom: 13,
         center: myLatLng,
                   styles: [
-                {elementType: 'geometry', stylers: [{color: '#9c9c9c'}]},
+                {elementType: 'geometry', stylers: [{color: '#000000'}]},
                 {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
-                {elementType: 'labels.text.fill', stylers: [{color: '#e8f600'}]},
+                {elementType: 'labels.text.fill', stylers: [{color: '#7cc13c'}]},
                 {
                   featureType: 'administrative.locality',
                   elementType: 'labels.text.fill',
-                  stylers: [{color: '#e8f600'}]
+                  stylers: [{color: '#7cc13c'}]
                 },
                 {
                   featureType: 'poi',
                   elementType: 'labels.text.fill',
-                  stylers: [{color: '#e8f600'}]
+                  stylers: [{color: '#7cc13c'}]
                 },
                 {
                   featureType: 'poi.park',
@@ -107,39 +107,36 @@ function initMap() {
                 {
                   featureType: 'water',
                   elementType: 'geometry',
-                  stylers: [{color: '#17263c'}]
+                  stylers: [{color: '#000'}]
                 },
                 {
                   featureType: 'water',
                   elementType: 'labels.text.fill',
-                  stylers: [{color: '#515c6d'}]
+                  stylers: [{color: '#813cc1'}]
                 },
                 {
                   featureType: 'water',
                   elementType: 'labels.text.stroke',
-                  stylers: [{color: '#17263c'}]
+                  stylers: [{color: '#813cc1'}]
                 }
+                      
               ]
       });
-     //var image = { 
-        //url: 'https://thenevermorehaunt.com/app/assets/images/the-nevermore-haunt.png',
-        //scaledSize: new google.maps.Size (50,50),
-        //anchor: new google.maps.Point (25,25)
-      //};
-       var image = 'https://thenevermorehaunt.com/the-nevermore-haunt.png';
-        var marker = new google.maps.Marker({
-            position: {lat: -33.890, lng: 151.274},
-            map: map,
-            icon: image
-        });
+    
+     var image = { 
+        src: 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
+        scaledSize: new google.maps.Size (50,50),
+        anchor: new google.maps.Point (25,25)
+      };
       var marker = new google.maps.Marker({
         position: myLatLng,
         map: map,
         title: 'The Nevermore Haunt',
         icon: image 
       });
-        google.maps.event.addListener(marker, 'click', function() {
-            window.open('https://thenevermorehaunt.com/');
+        
+    google.maps.event.addListener(marker, 'click', function() {
+            window.open('https://www.google.com/maps/place/The+Nevermore+Haunt/@39.2968134,-76.6082782,15z/data=!4m5!3m4!1s0x0:0x423340fda3926ce3!8m2!3d39.296913!4d-76.6028709');
     });
     }
     // Twitter
