@@ -252,13 +252,23 @@ body {
     text-align: center;
     padding: 8% 0;
 }
+.buy-tickets-now .spooky-button {
+    background-color: #7cc13c;
+    box-shadow: 2px 2px 25px green;
+}
 .buy-tickets-now h2 {
+    color: black;
     padding-top: 6%;
     font-size: 1em;
     font-weight: 900;
 }
-
-
+.buy-tickets-now .spooky-button:hover {
+    background-color: black;
+    box-shadow: 2px 2px 25px black;
+}
+.buy-tickets-now .spooky-button:hover h2 {
+            color: #7cc13c;
+}
 
 // Calendar //
 
@@ -462,11 +472,14 @@ label {
         padding: 0 1%;
     }
     #page-banner {
-        height: 55vw;
-        margin-top: 5%;
+        height: 45vw;
+        margin-top: 4%;
     }
-
-        
+    .buy-tickets-now h2 {
+    padding-top: 5%;
+    font-size: 2em;
+    }
+      
 }
 
 // Large devices (desktops, 992px and up)
@@ -508,6 +521,10 @@ label {
     .calendar-section {
         padding: 1% 0 0% 0;
     }
+    #page-banner {
+        height: 50vw;
+        margin-top: 4%;
+    }
 
 }
 
@@ -525,5 +542,9 @@ label {
         display: inherit;
         font-size: 3em;
         padding: 0 1%;
+    }
+    #page-banner {
+        height: 40vw;
+        margin-top: 3%;
     }
 }
