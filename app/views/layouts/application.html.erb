@@ -13,22 +13,7 @@
             <title>The Nevermore Haunt</title>
 
             <%= favicon_link_tag asset_path('icon.png'), :rel => 'icon', :type =>  'image/png' %>
-            <!-- New Google Tag Manager -->
-            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-83215758-1"></script>
-            <script>
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'UA-83215758-1');
 
-              document.addEventListener('turbolinks:load', event => {
-                if (typeof gtag === 'function') {
-                  gtag('config', 'UA-83215758-1', {
-                    'page_location': event.data.url
-                  });
-                }
-              });
-            </script>
             <!-- Old Google Tag Manager -->
             <!--<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -89,7 +74,16 @@
             <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
             <%= csrf_meta_tags %>
             <link rel="shortcut icon" href="/app/assets/images/icon.png"/>
-
+            <!-- New Google Tag Manager -->
+            <% if Rails.env.production? %>
+              <!-- Global site tag (gtag.js) - Google Analytics -->
+              <script async src="https://www.googletagmanager.com/gtag/js?id=UA-83215758-1"></script>
+              <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+              </script>
+            <% end %>
         </head>
     </head>
 
