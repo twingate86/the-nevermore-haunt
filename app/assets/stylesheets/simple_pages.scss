@@ -169,9 +169,8 @@ video {
     top:0; 
     padding-bottom: 56.5%; 
 } 
-video::-webkit-media-controls{
-    display: none;
-    -webkit-appearance: none;
+video::-webkit-media-controls-overlay-play-button {
+  display: none;
 }
 iframe      { 
     height:100%; 
