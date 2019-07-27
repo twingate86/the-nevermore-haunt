@@ -169,6 +169,10 @@ video {
     top:0; 
     padding-bottom: 56.5%; 
 } 
+video::-webkit-media-controls{
+    display: none;
+    -webkit-appearance: none;
+}
 iframe      { 
     height:100%; 
     position:absolute; 
