@@ -141,3 +141,4 @@ function initMap() {
     }
     // Twitter
 
+// Video Cover for Low Power Mobile //
