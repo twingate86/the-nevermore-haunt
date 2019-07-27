@@ -206,7 +206,13 @@ body {
     padding-right: 5%;
     text-shadow: 0 0 5px #7cc13c;
 }   
+*::--webkit-media-controls-play-button {
 
+  display: none!important;
+
+  -webkit-appearance: none;
+
+}
 
 // End Video //
 
