@@ -1,6 +1,11 @@
 // Place all the styles related to the directions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.written-directions {
+    background-image: url(pajama-tall-bg.jpg);
+    background-size: cover;
+}
 .map-section {
     height: 30em;
 }
@@ -12,6 +17,7 @@
   height: 300px;
   width: 100%;
 }
+
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 

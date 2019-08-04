@@ -1,3 +1,86 @@
 // Place all the styles related to the hours controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.schedule-row {
+}
+.scheduule-col {
+}
+.event-calendar {
+    padding: 2% 2%;
+}
+.event-calendar h1 {
+    font-family: 'IM Fell English', serif;
+    text-transform: capitalize;
+}
+.cal-day {
+    margin-top: 2%;
+    text-align: center;
+    padding: 0px;
+}
+.cal-day p {
+    font-family: 'IM Fell English', serif;
+    font-size: 110%;
+    margin-bottom: 1%;
+    padding: 0%;
+}
+.cal-col {
+    text-align: center;
+    border-style: solid;
+    padding: 0%;
+}
+.cal-col p {
+    font-family: 'IM Fell English', serif;
+    margin: 35% 0%;
+    font-size: 200%;
+    color: black;
+}
+.cal-col p:hover {
+    font-family: 'IM Fell English', serif;
+    margin: 35% 0%;
+}
+
+.times-col {
+    text-align: center;
+}
+.times-col p{
+    font-family: 'IM Fell English', serif;
+    color: black;
+    font-size: 200%;
+    margin: 5% 2%;
+}
+.early-col {
+    background-color: #813cc1;
+}
+.late-col {
+    background-color: #7cc13c;
+}
+
+.col-early {
+    background-color: #813cc1;  
+}
+.col-early:hover {
+    color: white;
+    background-color: #ff7033;
+}
+.col-early:hover p{
+    font-size: 300%;
+}
+.col-late {
+    background-color: #7cc13c;
+}
+.col-late:hover {
+    color: white;
+    background-color: #ff7033;
+}
+.col-late:hover p{
+    font-size: 300%;
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .cal-col p {
+        font-size: 200%;
+    }
+}

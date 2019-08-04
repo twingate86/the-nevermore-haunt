@@ -206,13 +206,6 @@ body {
     padding-right: 5%;
     text-shadow: 0 0 5px #7cc13c;
 }   
-*::--webkit-media-controls-play-button {
-
-  display: none!important;
-
-  -webkit-appearance: none;
-
-}
 
 // End Video //
 
@@ -262,11 +255,12 @@ body {
     padding: 8% 0;
 }
 .buy-tickets-now .spooky-button {
-    background-color: #7cc13c;
-    box-shadow: 2px 2px 25px green;
+    background-color: rgba(0, 153, 0, 0.6);
+    border-style: none;
 }
 .buy-tickets-now h2 {
-    color: black;
+    text-shadow: black 2px 4px; 
+    color: ghostwhite;
     padding-top: 6%;
     font-size: 1em;
     font-weight: 900;
@@ -310,8 +304,13 @@ body {
 // Ticket Chart //
 
 #tickets {
-    padding: 1% 10% 2% 10%;
+    padding: 1% 5% 0% 5%;
     background: image-url('street-bg.jpg');
+    background-size: cover;
+}
+#tickets-sub {
+    padding: 2% 1%;
+    background: image-url('clock-bg.jpg');
     background-size: cover;
 }
 .ticket-row {
@@ -321,6 +320,11 @@ body {
     margin-bottom: 4%;
 }
 #tickets .col-md-2 {
+    border-style: solid;
+    background-color: rgb(0,0,0);opacity:0.9;
+    border-color: ghostwhite;
+}
+#tickets-sub .col-md-2 {
     border-style: solid;
     background-color: rgb(0,0,0);opacity:0.9;
     border-color: ghostwhite;
@@ -355,9 +359,9 @@ body {
     border-right: none;
 }
 .ticket-price-underline p {
-    padding: 4% 0 4% 0;
+    padding: 4% 0 4% 0%;
     margin: 0;
-    font-size: .8em;
+    font-size: 3vw;
 }
 .ticket-price h2 {
     font-size: 3em;
@@ -414,10 +418,12 @@ label {
     background-color: #ff7033;
 }
 .warning h1 {
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: 600;
     color: black;
 }
 .warning h2 {
+    font-family: 'Roboto Condensed', sans-serif;
     color: black;
 }
 
@@ -452,7 +458,9 @@ label {
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
-
+     .ticket-price-underline p{
+        font-size: 2vw;
+    }
 
 }
      
@@ -488,6 +496,9 @@ label {
     padding-top: 5%;
     font-size: 2em;
     }
+    .ticket-price-underline p{
+        font-size: 1.5vw;
+    }
       
 }
 
@@ -516,7 +527,7 @@ label {
         padding: 0 1%;
     }
     .ticket-price-underline p{
-        font-size: 1.2em;
+        font-size: 1.4vw;
     }
     .ticket-chart h2 {
         font-size: 2em;
@@ -555,5 +566,8 @@ label {
     #page-banner {
         height: 40vw;
         margin-top: 3%;
+    }
+        .ticket-price-underline p{
+        font-size: .75vw;
     }
 }
