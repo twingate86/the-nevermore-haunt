@@ -30,6 +30,7 @@ nav.navbar {
     padding: 0;
 }
 .navbar-toggler {
+    margin-left: 50%;
     background-color: #7cc13c;
 }
 .navbar-toggler:focus {
@@ -389,6 +390,9 @@ body {
 // Mail Chimp Contact Form //
 
 .contact-section {
+    background-image: url(skulls-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     padding:7% 12% 7% 12%;
 }
 #mc_embed_signup {
@@ -439,6 +443,34 @@ label {
 
 .phrasable.phrasable-on:hover {
     background-color: green;
+}
+
+// Floating Buy Tickets Button //
+
+#floating_button {
+    position: fixed;
+    right: 15%;
+    top: 2%;
+}
+#floating_button h2 {
+    color: ghostwhite;
+    padding: 3% 3% 3% 3%;
+    background-color: #7cc13c;
+    font-size: 3.25vw;
+    text-shadow: 2px 2px 4px #000;
+    border: none;
+}
+#floating_button h2:hover {
+    background-color: black;
+}
+.floating-spooky {
+    background-color: transparent;
+}
+.floating-spooky:hover {
+    background-color: transparent;
+}
+.floating-spooky:active {
+    background-color: #000;
 }
 //******** MEDIA QUERIES******** //
 
@@ -492,12 +524,19 @@ label {
         height: 45vw;
         margin-top: 4%;
     }
-    .buy-tickets-now h2 {
+    .buy-now h2 {
     padding-top: 5%;
     font-size: 2em;
     }
     .ticket-price-underline p{
         font-size: 1.5vw;
+    }
+    #floating_button {
+    right: 5%;
+}
+    #floating_button h2{
+        padding: 3% 5%;
+        font-size: 2vw;
     }
       
 }
@@ -545,7 +584,12 @@ label {
         height: 50vw;
         margin-top: 4%;
     }
-
+    #floating_button {
+    right: 5%;
+}
+    #floating_button h2{
+        font-size: 1.5vw;
+    }
 }
 
 // Extra large devices (large desktops, 1200px and up)

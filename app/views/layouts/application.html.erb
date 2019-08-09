@@ -183,7 +183,7 @@
                             <%= link_to "Directions", directions_path %>
                             <%= link_to "Photos", photos_path %>    
                             <%= link_to "FAQ", faqs_path %>
-                            <%= link_to "Tickets", tickets_path %>
+                            <!--<%= link_to "Tickets", tickets_path %>-->
                             
 
                             <% if user_signed_in? %>
@@ -199,9 +199,9 @@
 
                 <div class="col-8 col-lg-12 brand-col"><a class="navbar-brand" href="#"><%= image_tag("logo-primary.png", :class => "navbar-logo") %></a></div>
 
-                <div class="col-2 buy-ticket-col"><!--<button class="btn btn-primary spooky-button ticket-button">
-<h2>Buy <i class="fas fa-ticket-alt"></i> </h2>
-</button>--></div>
+                <div class="col-2 buy-ticket-col" id="floating_button"><button onclick="window.location.href = '/tickets';" class="btn btn-primary ticket-button floating-spooky">
+                <h2> Buy Tickets </h2>
+                </button></div>
 
             </div>
 
