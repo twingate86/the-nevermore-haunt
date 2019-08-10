@@ -31,7 +31,7 @@ nav.navbar {
 }
 .navbar-toggler {
     margin-left: 50%;
-    background-color: #7cc13c;
+    background-color: black;
 }
 .navbar-toggler:focus {
     outline: 0px !important;
@@ -59,9 +59,9 @@ nav {
 }
 .navbar-nav {
     color: white;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
-.navbar-light .navbar-nav .nav-link {
+.navbar-dark .navbar-nav .nav-link {
     color: #FFFFFF;
 }
 .navbar-logo {
@@ -449,29 +449,45 @@ label {
 
 #floating_button {
     position: fixed;
-    right: 15%;
+    right: 8%;
     top: 2%;
+}
+#floating_button:focus {
+    border: none;
 }
 #floating_button h2 {
     color: ghostwhite;
-    padding: 3% 3% 3% 3%;
-    background-color: #7cc13c;
-    font-size: 3.25vw;
+    font-size: 3.75vw;
     text-shadow: 2px 2px 4px #000;
     border: none;
+    margin-bottom: 0;
 }
 #floating_button h2:hover {
     background-color: black;
 }
 .floating-spooky {
-    background-color: transparent;
+    border: none;
+    border-radius: 7.5%;
+    background-color: #7cc13c;
+    cursor: pointer;
+}
+.floating-spooky:active {
+    border: none;
 }
 .floating-spooky:hover {
-    background-color: transparent;
+    background-color: black;
 }
 .floating-spooky:active {
     background-color: #000;
 }
+
+// Turns off IE only CSS //
+
+.show-in-ie {
+        display: none;
+    }
+
+
 //******** MEDIA QUERIES******** //
 
 /* Extra Small Devices, Phones */ 
@@ -492,6 +508,9 @@ label {
 @media (min-width: 576px) {
      .ticket-price-underline p{
         font-size: 2vw;
+    }
+    #floating-button {
+        right: 10%;
     }
 
 }
@@ -613,5 +632,38 @@ label {
     }
         .ticket-price-underline p{
         font-size: .75vw;
+    }
+}
+
+
+// Internet Explorer //
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  // Home Page in IE //
+   .navbar-logo {
+       position: fixed;
+       top: 5%;
+       left: 34.5%;
+       width: 30vw;
+   }
+    .navbar-nav a {
+        padding-left: 25%;
+    }
+    .hide-in-ie {
+        display: none;
+    }
+    .show-in-ie {
+        display: inherit;
+    }
+    .show-in-ie a {
+        color: #7c13cc;
+    }
+    .show-in-ie a:hover {
+        color: #7cc13c;
+    }
+    
+    // Attractions Page in IE //
+    card-row-mobile {
+        display: inline;
     }
 }

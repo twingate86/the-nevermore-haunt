@@ -191,3 +191,20 @@
         height: 400px;
     }
 }
+
+// Internet Explorer //
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    
+    // Attractions Page in IE //
+    .card-row {
+        display: none;
+    }
+    .card-row-mobile {
+        display: inherit;
+    }
+    .card-mobile-caption {
+        display: inherit;
+        margin-top: 0%;
+    }
+}
