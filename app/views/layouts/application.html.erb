@@ -12,14 +12,10 @@
 
             <%= favicon_link_tag asset_path('icon.png'), :rel => 'icon', :type =>  'image/png' %>
             
-            
-            <!-- Social Media -->
-            <meta property="og:type"               content="website" />
-            <meta property="og:title"              content="The Nevermore Haunt" />
-            <meta property="og:description"        content="Maryland's Scariest Haunted House" />
-            <meta property="og:image"              content='<%= image_tag("images/doctor.jpg" ) %>'/>
-            
-           
+              <meta property="og:title" content="The Nevermore Haunt" />
+              <meta property="og:type" content="website" />
+              <meta property="og:url" content="https://thenevermorehaunt.com" />
+              <%= tag :meta, property: 'og:image', content: image_url('judge.jpg') %>
             
             <!--Organizational Schema -->
             <script type="application/ld+json">
