@@ -5,7 +5,6 @@ module PhrasingHelper
   # def can_edit_phrases?
   #  current_user.is_admin?
   # end
-
   def can_edit_phrases?
         user_signed_in?
   end

@@ -481,6 +481,12 @@ label {
     background-color: #000;
 }
 
+// Phrasing Styles //
+
+.phrasable.phrasable-on:hover {
+    background-color: green !important;
+}
+
 // Turns off IE only CSS //
 
 .show-in-ie {
@@ -631,7 +637,7 @@ label {
         margin-top: 3%;
     }
         .ticket-price-underline p{
-        font-size: .75vw;
+        font-size: 1.2vw;
     }
 }
 
