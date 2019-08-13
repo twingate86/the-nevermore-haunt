@@ -47,7 +47,7 @@
 .times-col p{
     font-family: 'IM Fell English', serif;
     color: black;
-    font-size: 200%;
+    font-size: 125%;
     margin: 5% 2%;
 }
 .early-col {
@@ -84,5 +84,8 @@
 @media (min-width: 768px) {
     .cal-col p {
         font-size: 200%;
+    }
+    .times-col p{
+        font-size: 250%;
     }
 }

@@ -46,7 +46,8 @@ nav {
     }
     a {
         color: ghostwhite;
-        font-size: 16px;
+        font-size: 4vw;
+        line-height: 200%;
         transition: all 0.3s ease;
     }
     a:hover {
@@ -241,7 +242,7 @@ body {
 .tag-line h1 {
     font-weight: 600;
     color: white;
-    font-size: 1em;
+    font-size: 1.25em;
 }
 .tag-line i {
     display: none;
@@ -292,6 +293,9 @@ body {
     background-repeat: no-repeat;
     text-align: center;
     padding: 8% 0 8% 0;
+}
+.calendar-section h1 {
+    margin: 0%;
 }
 
 .event-dates-header {
@@ -546,11 +550,11 @@ label {
     .tag-line h1 {
         font-weight: 600;
         color: white;
-        font-size: 1.5em;
+        font-size: 2em;
     }
     .tag-line i {
         display: inherit;
-        font-size: 1.5em;
+        font-size: 2em;
         padding: 0 1%;
     }
     #page-banner {
@@ -571,7 +575,12 @@ label {
         padding: 3% 5%;
         font-size: 2vw;
     }
-      
+    nav {
+            a {
+        font-size: 2vw;
+        line-height: 150%;
+        }
+    }
 }
 
 // Large devices (desktops, 992px and up)
@@ -591,12 +600,12 @@ label {
     .tag-line h1 {
         font-weight: 600;
         color: white;
-        font-size: 2em;
+        font-size: 2.5em;
     }
     .tag-line i {
         display: inherit;
-        font-size: 2em;
-        padding: 0 1%;
+        font-size: 2.5em;
+        padding: 0% 1%;
     }
     .ticket-price-underline p{
         font-size: 1.4vw;
@@ -622,6 +631,12 @@ label {
 }
     #floating_button h2{
         font-size: 1.5vw;
+    }
+    nav {
+        a {
+        font-size: 1.5vw;
+        line-height: 100%;
+        }
     }
 }
 
