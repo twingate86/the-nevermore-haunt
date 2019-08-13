@@ -100,6 +100,14 @@ nav.navbar.shrink {
 .page-content {
     padding: 5% 0 0 0;
 }
+
+.nav-tickets {
+    color: #7cc13c;
+    cursor: pointer;
+}
+a.nav-tickets:hover {
+    color: #7cc13c !important;
+}
 // End Nav //
 
 // Alerts //

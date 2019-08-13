@@ -15,7 +15,7 @@
               <meta property="og:title" content="The Nevermore Haunt" />
               <meta property="og:type" content="website" />
               <meta property="og:url" content="https://thenevermorehaunt.com" />
-              <%= tag :meta, property: 'og:image', content: image_url('nevemore-fb.jpg') %>
+              <%= tag :meta, property: 'og:image', content: image_url('nevermore-fb.jpg') %>
             
             <!--Organizational Schema -->
             <script type="application/ld+json">
@@ -188,6 +188,8 @@
                             <%= link_to "Directions", directions_path %>
                             <%= link_to "Photos", photos_path %>    
                             <%= link_to "FAQ", faqs_path %>
+                            <a onclick="window.location.href = '/tickets';" class="nav-tickets">Tickets</a>
+
                             <!--<%= link_to "Tickets", tickets_path %>-->
                             
 
