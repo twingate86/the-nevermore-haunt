@@ -164,6 +164,11 @@
                 gtag('js', new Date());
               </script>
             <% end %>
+             <script>
+             document.addEventListener('turbolinks:load', function() {
+              gtag('config', 'UA-83215758-1')
+            });
+             </script>
         </head>
 
 
