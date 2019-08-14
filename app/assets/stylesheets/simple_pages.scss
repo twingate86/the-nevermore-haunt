@@ -109,6 +109,9 @@ nav.navbar.shrink {
 a.nav-tickets:hover {
     color: #7cc13c !important;
 }
+a.nav-tickets:visited {
+    color: #666 !important;
+}
 // End Nav //
 
 // Alerts //
@@ -228,6 +231,9 @@ body {
 .featured-on h2 {
     text-align: center;
 }
+.featured-on h1 {
+    font-size: 1em;
+}
 .featured-on-logo {
     width: 100%;
     max-height: 8vw;
@@ -243,17 +249,20 @@ body {
     font-weight: 600;
     color: white;
     font-size: 1.25em;
+    text-shadow: black 2px 2px; 
 }
 .tag-line i {
     display: none;
     font-size: 1em;
     padding: 0 1%;
+    text-shadow: black 2px 2px; 
 }
 .social-icon a {
     color: white;
 }
 .social-icon a:hover {
     color: black;
+    transition: 500ms;
 }
 // End Social Media Bar - Tag Line //
 
@@ -474,9 +483,6 @@ label {
     border: none;
     margin-bottom: 0;
 }
-#floating_button h2:hover {
-    background-color: black;
-}
 .floating-spooky {
     border: none;
     border-radius: 7.5%;
@@ -487,10 +493,21 @@ label {
     border: none;
 }
 .floating-spooky:hover {
-    background-color: black;
+    background-color: transparent;
+    transition: 500ms;
 }
 .floating-spooky:active {
     background-color: #000;
+}
+@keyframes glowing {
+  0% { box-shadow: 0 0 -10px #c4a300; }
+  40% { box-shadow: 0 0 20px #c4a300; }
+  60% { box-shadow: 0 0 20px #c4a300; }
+  100% { box-shadow: 0 0 -10px #c4a300; }
+}
+
+.button-glow {
+  animation: glowing 2000ms infinite;
 }
 
 // Phrasing Styles //
@@ -557,6 +574,9 @@ label {
         font-size: 2em;
         padding: 0 1%;
     }
+    .tag-line-logo {
+        width: 3.5%;
+    }
     #page-banner {
         height: 45vw;
         margin-top: 4%;
@@ -581,6 +601,9 @@ label {
         line-height: 150%;
         }
     }
+    .featured-on h1 {
+    font-size: 2em;
+}
 }
 
 // Large devices (desktops, 992px and up)
@@ -601,6 +624,7 @@ label {
         font-weight: 600;
         color: white;
         font-size: 2.5em;
+        margin-top: 0%;
     }
     .tag-line i {
         display: inherit;
