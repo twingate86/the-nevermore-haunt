@@ -91,3 +91,27 @@
         font-size: 250%;
     }
 }
+
+
+// IE Styles //
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .col-early:hover {
+    color: white;
+    background-color: #813cc1;
+    }
+    .col-late:hover {
+    background-color: #7cc13c;
+    }
+    .col-late:hover p{
+    font-size: 200%;
+    }
+    .col-early:hover p{
+    font-size: 200%;
+    }
+    .col-early {
+        cursor: inherit;
+    }
+    .col-late {
+        cursor: inherit;
+    }
+}

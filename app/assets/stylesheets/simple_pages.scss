@@ -379,11 +379,20 @@ body {
     border-top: none;
     border-left: none;
     border-right: none;
+    vertical-align: middle;
 }
 .ticket-price-underline p {
     padding: 4% 0 4% 0%;
     margin: 0;
     font-size: 3vw;
+    height: 3vw;
+    min-height: 32px;
+}
+.friday p {
+    padding-top: 12%;
+}
+.tickets-page p {
+    height: 4vw;
 }
 .ticket-price h2 {
     font-size: 3em;
@@ -516,12 +525,18 @@ label {
     background-color: green !important;
 }
 
+// Carousel Slides //
+
+
+
 // Turns off IE only CSS //
 
 .show-in-ie {
         display: none;
     }
-
+.attractions-ie-wrap {
+    display: none;
+}
 
 //******** MEDIA QUERIES******** //
 
@@ -646,6 +661,19 @@ label {
     .calendar-section {
         padding: 1% 0 0% 0;
     }
+    .carousel-overlay {
+        text-align: center;
+        position: absolute;
+        top: 25%;
+        left: 25%;
+        z-index: 10;
+    }
+    .carousel-overlay h2 {
+        font-size: 2.5em;
+    }
+    .carousel-overlay i {
+        font-size: 4em;
+    }
     #page-banner {
         height: 50vw;
         margin-top: 4%;
@@ -661,6 +689,15 @@ label {
         font-size: 1.5vw;
         line-height: 100%;
         }
+    }
+    .contact-form-wrapper {
+    width: 100%;
+    }
+    #mc_embed_signup form {
+    padding-right: 3% !important;
+    }
+    .contact-section {
+    padding: 7% 30%;
     }
 }
 
@@ -717,6 +754,9 @@ label {
     
     // Attractions Page in IE //
     card-row-mobile {
-        display: inline;
+        display: inline-flex;
     }
+    .attractions-ie-wrap {
+    display: inherit;
+}
 }

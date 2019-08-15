@@ -89,6 +89,7 @@
     text-align: center;
     padding-bottom: 3%;
 }
+
 //******** MEDIA QUERIES******** //
 
 // Small devices (landscape phones, 576px and up)
@@ -110,7 +111,7 @@
       perspective: 600;
       position: relative;
       width: 100%;
-      height: 340px;
+      height: 420px;
       }
     .card {
       height: 100%;
@@ -160,7 +161,7 @@
         display: none;
     }
     .card-container {
-        height: 250px;
+        height: 275px;
     }
     .card-col h2 {
     font-size: 1.2em;
@@ -176,7 +177,7 @@
         display: none;
     }
     .card-container {
-        height: 340px;
+        height: 360px;
     }
         .card-col h2 {
     font-size: 1.5em;
@@ -188,7 +189,7 @@
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
         .card-container {
-        height: 400px;
+        height: 420px;
     }
 }
 
@@ -201,10 +202,23 @@
         display: none;
     }
     .card-row-mobile {
-        display: inherit;
+        display: none;
     }
     .card-mobile-caption {
         display: inherit;
         margin-top: 0%;
+    }
+    .card-row-ie {
+        .card-col {
+            align-content: center;
+        }
+        image {
+            width: 100%;
+        }
+        .card-mobile-caption p {
+            color: ghostwhite;
+            background-color: black;
+            font-weight: 400;
+        }
     }
 }
