@@ -1,0 +1,1 @@
+json.array! @historys, partial: 'historys/history', as: :history

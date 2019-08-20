@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :histories
   constraints(host: /^www\./i) do
     match '(*any)' => redirect { |params, request|
       URI.parse(request.url).tap { |uri| uri.host.sub!(/^www\./i, '') }.to_s 
@@ -10,6 +11,8 @@ Rails.application.routes.draw do
   resources :faqs
   resources :attractions
   resources :directions
+  resources :waiver
+  resources :history
   get 'attractions/index'
 
   devise_for :users
@@ -27,6 +30,10 @@ Rails.application.routes.draw do
   get 'simple_pages/photos'
 
   get 'simple_pages/faq'
+    
+  get 'simple_pages/waiver'
+    
+  get 'simple_pages/history'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html      
     

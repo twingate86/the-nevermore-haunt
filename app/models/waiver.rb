@@ -1,0 +1,2 @@
+class Waiver < ApplicationRecord
+end

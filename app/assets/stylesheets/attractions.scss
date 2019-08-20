@@ -34,7 +34,7 @@
   background-color: black;
 }
 .card .back {
-  background: #7cc13c;
+  background: #666;
   color: black;
   padding: 20% 5%;
   text-align: center;
@@ -89,6 +89,11 @@
     text-align: center;
     padding-bottom: 3%;
 }
+.card-container p{
+    color: black;
+    font-size: 2vw;
+    line-height: 2vw;
+}
 
 //******** MEDIA QUERIES******** //
 
@@ -132,7 +137,7 @@
       width: 100%;
     }
     .card .back {
-      background: #7cc13c;
+      background: #666;
       color: black;
       padding: 20% 5%;
       text-align: center;
@@ -161,7 +166,7 @@
         display: none;
     }
     .card-container {
-        height: 275px;
+        height: 35vw;
     }
     .card-col h2 {
     font-size: 1.2em;
@@ -177,7 +182,7 @@
         display: none;
     }
     .card-container {
-        height: 360px;
+        height: 35vw;
     }
         .card-col h2 {
     font-size: 1.5em;
@@ -189,7 +194,7 @@
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
         .card-container {
-        height: 420px;
+        height: 35vw;
     }
 }
 

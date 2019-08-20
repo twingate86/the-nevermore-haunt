@@ -71,11 +71,11 @@
                     <div class="carousel-item active">
                         <%= image_tag("fast-pass-carousel.jpg", :class => "d-block w-100 left-ad") %>
                     </div>
+                    <a href="https://www.youtube.com/watch?v=KUqKjbY1I50&feature=youtu.be" target="_blank"><div class="carousel-item clickable-carousel">
+                        <%= image_tag("trailer.jpg", :class => "d-block w-100 left-ad") %>
+                        </div></a>
                     <div class="carousel-item">
-                        <%= image_tag("now-hiring.jpg", :class => "d-block w-100 left-ad") %>
-                    </div>
-                    <div class="carousel-item">
-                        <%= image_tag("nightly-sideshow.jpg", :class => "d-block w-100 left-ad") %>
+                        <%= image_tag("food_drink.jpg", :class => "d-block w-100 left-ad") %>
                     </div>
                 </div>
             </div>
@@ -90,15 +90,15 @@
         <div class="col-sm-12 col-lg-4">
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <%= image_tag("triface.png", :class => "d-block w-100 right-ad") %> <!--<div class="carousel-overlay"><h2>Watch the Trailer</h2><p><i class="fas fa-play-circle"></i></p></div>-->
-                    </div>
-                    <div class="carousel-item">
-                        <%= image_tag("vip.jpg", :class => "d-block w-100 right-ad") %>
-                    </div>
-                    <div class="carousel-item">
-                        <%= image_tag("history-carousel.jpg", :class => "d-block w-100 right-ad") %>
+                    <div onclick="window.location.href = '/history';" class="carousel-item active clickable-carousel">
+                        <%= image_tag("history.jpg", :class => "d-block w-100 right-ad") %>
                         
+                    </div>
+                    <div class="carousel-item">
+                        <%= image_tag("fast-pass-carousel.jpg", :class => "d-block w-100 right-ad") %>
+                    </div>
+                    <div class="carousel-item">
+                        <%= image_tag("food_drink.jpg", :class => "d-block w-100 right-ad") %>
                     </div>
                 </div>
             </div>

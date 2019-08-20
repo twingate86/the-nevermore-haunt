@@ -1,0 +1,2 @@
+class WaiverController < ApplicationController
+end

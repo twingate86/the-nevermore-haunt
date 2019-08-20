@@ -80,7 +80,7 @@ nav.navbar.shrink {
     min-height: 35px;
     .logoline {font-size: 20px;}
     a {
-        font-size: 14px;
+        font-size: 4vw;
         padding-bottom: 10px !important;
         padding-top: 10px !important;
     }
@@ -389,7 +389,7 @@ body {
     min-height: 32px;
 }
 .friday p {
-    padding-top: 12%;
+    padding-top: 4%;
 }
 .tickets-page p {
     height: 4vw;
@@ -527,7 +527,9 @@ label {
 
 // Carousel Slides //
 
-
+.clickable-carousel {
+    cursor: pointer;
+}
 
 // Turns off IE only CSS //
 
@@ -537,6 +539,8 @@ label {
 .attractions-ie-wrap {
     display: none;
 }
+
+
 
 //******** MEDIA QUERIES******** //
 
@@ -619,6 +623,12 @@ label {
     .featured-on h1 {
     font-size: 2em;
 }
+    .friday p {
+    padding-top: 12%;
+}
+    nav.navbar.shrink a{
+        font-size: 1.5vw;
+    }
 }
 
 // Large devices (desktops, 992px and up)

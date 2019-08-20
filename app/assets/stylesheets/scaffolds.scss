@@ -132,6 +132,12 @@ label {
 .page-footer {
     padding-top: 5%;
 }
+.page-footer a:not([href]):not([tabindex]) {
+    color: #7cc13c;
+    font-size: 1.75em;
+    text-decoration: underline;
+    cursor: pointer;
+}
 .sub-page {
     margin-top: 15%;
 }
