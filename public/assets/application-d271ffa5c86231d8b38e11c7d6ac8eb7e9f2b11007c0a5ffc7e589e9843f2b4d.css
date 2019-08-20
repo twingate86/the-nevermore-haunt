@@ -1,0 +1,2781 @@
+/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Change the default font family in all browsers (opinionated).
+ * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
+ */
+/* line 8, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+/* line 18, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ * 2. Add the correct display in IE.
+ */
+/* line 31, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  /* 1 */
+  display: block;
+}
+
+/**
+ * Add the correct display in IE 9-.
+ */
+/* line 50, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+/* line 61, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 70, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Add the correct display in IE 10-.
+ * 1. Add the correct display in IE.
+ */
+/* line 79, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+template,
+[hidden] {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+/* line 92, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */
+}
+
+/**
+ * Remove the outline on focused links when they are also active or hovered
+ * in all browsers (opinionated).
+ */
+/* line 102, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+a:active,
+a:hover {
+  outline-width: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * 1. Remove the bottom border in Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 115, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+/* line 125, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+b,
+strong {
+  font-weight: inherit;
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 134, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+/* line 143, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 152, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+/* line 161, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 170, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 179, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 187, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 191, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+/* line 202, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+img {
+  border-style: none;
+}
+
+/**
+ * Hide the overflow in IE.
+ */
+/* line 210, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 222, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct margin in IE 8.
+ */
+/* line 234, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 243, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change font properties to `inherit` in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 257, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Restore the font weight unset by the previous rule.
+ */
+/* line 269, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+optgroup {
+  font-weight: bold;
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 278, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 288, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 299, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 310, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 322, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Change the border, margin, and padding in all browsers (opinionated).
+ */
+/* line 333, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 346, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+/* line 359, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+/* line 368, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 378, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 388, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on OS X.
+ */
+/* line 397, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Correct the text style of placeholders in Chrome, Edge, and Safari.
+ */
+/* line 406, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 416, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+/* line 6, C:/Users/thomw/nevermore/app/assets/stylesheets/attractions.scss */
+.attractions {
+  padding: 2% 2%;
+  background-image: url(spooky-bg.jpg);
+  background-size: cover;
+}
+
+/* line 11, C:/Users/thomw/nevermore/app/assets/stylesheets/attractions.scss */
+.card-container {
+  height: 22em;
+  height: 22em;
+  perspective: 600;
+  position: relative;
+  width: 100%;
+  height: 320px;
+}
+
+/* line 20, C:/Users/thomw/nevermore/app/assets/stylesheets/attractions.scss */
+.card {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+/* line 27, C:/Users/thomw/nevermore/app/assets/stylesheets/attractions.scss */
+.card .side {
+  backface-visibility: hidden;
+  border-radius: 6px;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  background-color: black;
+}
+
+/* line 36, C:/Users/thomw/nevermore/app/assets/stylesheets/attractions.scss */
+.card .back {
+  background: #666;
+  color: black;
+  padding: 20% 5%;
+  text-align: center;
+  transform: rotateY(180deg);
+}
+
+/* line 44, C:/Users/thomw/nevermore/app/assets/stylesheets/attractions.scss */
+.card-col {
+  padding: 10% 10%;
+}
+
+/* line 47, C:/Users/thomw/nevermore/app/assets/stylesheets/attractions.scss */
+.card-col h2 {
+  font-size: 1.5em;
+}
+
+/* line 50, C:/Users/thomw/nevermore/app/assets/stylesheets/attractions.scss */
+.card-row {
+  display: none;
+  margin-bottom: 10%;
+}
+
+/* line 54, C:/Users/thomw/nevermore/app/assets/stylesheets/attractions.scss */
+.card-img {
+  position: relative;
+  width: 115%;
+}
+
+/* line 58, C:/Users/thomw/nevermore/app/assets/stylesheets/attractions.scss */
+.card-mobile-caption {
+  position: relative;
+  background-color: black;
+  margin: 0;
+  padding: 0%;
+}
+
+/* line 64, C:/Users/thomw/nevermore/app/assets/stylesheets/attractions.scss */
+.card-mobile-caption p {
+  color: black;
+  background-color: #666;
+  padding: 2% 2% 4% 2%;
+  margin: 0 12.05%;
+  font-weight: 800;
+}
+
+/* line 72, C:/Users/thomw/nevermore/app/assets/stylesheets/attractions.scss */
+.card-row-mobile .card-col {
+  background-color: black;
+  text-align: center;
+  margin: 10% 0%;
+  padding: 0;
+}
+/* line 78, C:/Users/thomw/nevermore/app/assets/stylesheets/attractions.scss */
+.card-row-mobile img {
+  width: 76%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #666;
+}
+/* line 84, C:/Users/thomw/nevermore/app/assets/stylesheets/attractions.scss */
+.card-row-mobile h2 {
+  font-size: 2em;
+}
+
+/* line 88, C:/Users/thomw/nevermore/app/assets/stylesheets/attractions.scss */
+.attractions-about {
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+/* line 92, C:/Users/thomw/nevermore/app/assets/stylesheets/attractions.scss */
+.card-container p {
+  color: black;
+  font-size: 1.7vw;
+  line-height: 2vw;
+}
+
+@media (min-width: 576px) {
+  /* line 104, C:/Users/thomw/nevermore/app/assets/stylesheets/attractions.scss */
+  .card-container {
+    height: 250px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 113, C:/Users/thomw/nevermore/app/assets/stylesheets/attractions.scss */
+  .card-container {
+    cursor: pointer;
+    height: 22em;
+    perspective: 600;
+    position: relative;
+    width: 100%;
+    height: 420px;
+  }
+
+  /* line 121, C:/Users/thomw/nevermore/app/assets/stylesheets/attractions.scss */
+  .card {
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+    width: 100%;
+  }
+
+  /* line 128, C:/Users/thomw/nevermore/app/assets/stylesheets/attractions.scss */
+  .card:hover {
+    transform: rotateY(180deg);
+  }
+
+  /* line 131, C:/Users/thomw/nevermore/app/assets/stylesheets/attractions.scss */
+  .card .side {
+    backface-visibility: hidden;
+    border-radius: 6px;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  /* line 139, C:/Users/thomw/nevermore/app/assets/stylesheets/attractions.scss */
+  .card .back {
+    background: #666;
+    color: black;
+    padding: 20% 5%;
+    text-align: center;
+    transform: rotateY(180deg);
+  }
+
+  /* line 147, C:/Users/thomw/nevermore/app/assets/stylesheets/attractions.scss */
+  .card-col {
+    padding: 10% 10%;
+  }
+
+  /* line 150, C:/Users/thomw/nevermore/app/assets/stylesheets/attractions.scss */
+  .card-row {
+    margin-bottom: 10%;
+  }
+
+  /* line 153, C:/Users/thomw/nevermore/app/assets/stylesheets/attractions.scss */
+  .card-mobile-caption {
+    margin-top: 8%;
+  }
+
+  /* line 156, C:/Users/thomw/nevermore/app/assets/stylesheets/attractions.scss */
+  .card-row {
+    display: -webkit-box;
+  }
+
+  /* line 159, C:/Users/thomw/nevermore/app/assets/stylesheets/attractions.scss */
+  .card-row-mobile {
+    display: none;
+  }
+
+  /* line 162, C:/Users/thomw/nevermore/app/assets/stylesheets/attractions.scss */
+  .card-col {
+    padding: 0 1%;
+  }
+
+  /* line 165, C:/Users/thomw/nevermore/app/assets/stylesheets/attractions.scss */
+  .card-mobile-caption {
+    display: none;
+  }
+
+  /* line 168, C:/Users/thomw/nevermore/app/assets/stylesheets/attractions.scss */
+  .card-container {
+    height: 35vw;
+  }
+
+  /* line 171, C:/Users/thomw/nevermore/app/assets/stylesheets/attractions.scss */
+  .card-col h2 {
+    font-size: 1.2em;
+  }
+}
+@media (min-width: 992px) {
+  /* line 178, C:/Users/thomw/nevermore/app/assets/stylesheets/attractions.scss */
+  .card-col {
+    padding: 0 1%;
+  }
+
+  /* line 181, C:/Users/thomw/nevermore/app/assets/stylesheets/attractions.scss */
+  .card-mobile-caption {
+    display: none;
+  }
+
+  /* line 184, C:/Users/thomw/nevermore/app/assets/stylesheets/attractions.scss */
+  .card-container {
+    height: 35vw;
+  }
+
+  /* line 187, C:/Users/thomw/nevermore/app/assets/stylesheets/attractions.scss */
+  .card-col h2 {
+    font-size: 1.5em;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 196, C:/Users/thomw/nevermore/app/assets/stylesheets/attractions.scss */
+  .card-container {
+    height: 35vw;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  /* line 206, C:/Users/thomw/nevermore/app/assets/stylesheets/attractions.scss */
+  .card-row {
+    display: none;
+  }
+
+  /* line 209, C:/Users/thomw/nevermore/app/assets/stylesheets/attractions.scss */
+  .card-row-mobile {
+    display: none;
+  }
+
+  /* line 212, C:/Users/thomw/nevermore/app/assets/stylesheets/attractions.scss */
+  .card-mobile-caption {
+    display: inherit;
+    margin-top: 0%;
+  }
+
+  /* line 217, C:/Users/thomw/nevermore/app/assets/stylesheets/attractions.scss */
+  .card-row-ie .card-col {
+    align-content: center;
+  }
+  /* line 220, C:/Users/thomw/nevermore/app/assets/stylesheets/attractions.scss */
+  .card-row-ie image {
+    width: 100%;
+  }
+  /* line 223, C:/Users/thomw/nevermore/app/assets/stylesheets/attractions.scss */
+  .card-row-ie .card-mobile-caption p {
+    color: ghostwhite;
+    background-color: black;
+    font-weight: 400;
+  }
+}
+/* line 5, C:/Users/thomw/nevermore/app/assets/stylesheets/directions.scss */
+.written-directions {
+  background-image: url(pajama-tall-bg.jpg);
+  background-size: cover;
+}
+
+/* line 9, C:/Users/thomw/nevermore/app/assets/stylesheets/directions.scss */
+.map-section {
+  height: 30em;
+}
+
+/* line 12, C:/Users/thomw/nevermore/app/assets/stylesheets/directions.scss */
+.directions-page ul {
+  list-style: none;
+}
+
+/* line 16, C:/Users/thomw/nevermore/app/assets/stylesheets/directions.scss */
+#map {
+  height: 300px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  /* line 29, C:/Users/thomw/nevermore/app/assets/stylesheets/directions.scss */
+  #map {
+    height: 400px;
+    width: 100%;
+  }
+}
+/* line 4, C:/Users/thomw/nevermore/app/assets/stylesheets/faqs.scss */
+.faq-page ul {
+  list-style: circle;
+}
+
+/* line 7, C:/Users/thomw/nevermore/app/assets/stylesheets/faqs.scss */
+.faq-page li {
+  color: whitesmoke;
+  padding-top: 2%;
+}
+
+/* line 11, C:/Users/thomw/nevermore/app/assets/stylesheets/faqs.scss */
+.faq-page h2 {
+  color: #666666;
+  padding-top: 1%;
+}
+/* line 5, C:/Users/thomw/nevermore/app/assets/stylesheets/histories.scss */
+.newspaper {
+  background-image: url(newspaper.jpg);
+  height: 32vw;
+  background-size: cover;
+  margin-bottom: 2%;
+}
+
+/* line 12, C:/Users/thomw/nevermore/app/assets/stylesheets/histories.scss */
+.history-page h3 {
+  color: #7cc13c;
+}
+
+/* line 16, C:/Users/thomw/nevermore/app/assets/stylesheets/histories.scss */
+.isaac {
+  background-image: url(isaac.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 2%;
+  height: 40vw;
+  width: 50%;
+  margin: 0 25% 0 25%;
+}
+
+/* line 25, C:/Users/thomw/nevermore/app/assets/stylesheets/histories.scss */
+.old-town-1 {
+  background-image: url(old_town_mall_1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 2%;
+  height: 30vw;
+  width: 50%;
+  margin: 0 25%;
+}
+/* line 10, C:/Users/thomw/nevermore/app/assets/stylesheets/hours.scss */
+.event-calendar {
+  padding: 2% 2%;
+}
+
+/* line 13, C:/Users/thomw/nevermore/app/assets/stylesheets/hours.scss */
+.event-calendar h1 {
+  font-family: 'IM Fell English', serif;
+  text-transform: capitalize;
+}
+
+/* line 17, C:/Users/thomw/nevermore/app/assets/stylesheets/hours.scss */
+.cal-day {
+  margin-top: 2%;
+  text-align: center;
+  padding: 0px;
+}
+
+/* line 22, C:/Users/thomw/nevermore/app/assets/stylesheets/hours.scss */
+.cal-day p {
+  font-family: 'IM Fell English', serif;
+  font-size: 110%;
+  margin-bottom: 1%;
+  padding: 0%;
+}
+
+/* line 28, C:/Users/thomw/nevermore/app/assets/stylesheets/hours.scss */
+.cal-col {
+  text-align: center;
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: ghostwhite;
+  padding: 0%;
+}
+
+/* line 35, C:/Users/thomw/nevermore/app/assets/stylesheets/hours.scss */
+.cal-col p {
+  font-family: 'IM Fell English', serif;
+  margin: 35% 0%;
+  font-size: 200%;
+  color: black;
+}
+
+/* line 41, C:/Users/thomw/nevermore/app/assets/stylesheets/hours.scss */
+.cal-col p:hover {
+  font-family: 'IM Fell English', serif;
+  margin: 35% 0%;
+}
+
+/* line 46, C:/Users/thomw/nevermore/app/assets/stylesheets/hours.scss */
+.times-col {
+  text-align: center;
+}
+
+/* line 49, C:/Users/thomw/nevermore/app/assets/stylesheets/hours.scss */
+.times-col p {
+  font-family: 'IM Fell English', serif;
+  color: black;
+  font-size: 125%;
+  margin: 5% 2%;
+}
+
+/* line 55, C:/Users/thomw/nevermore/app/assets/stylesheets/hours.scss */
+.early-col {
+  background-color: #813cc1;
+}
+
+/* line 58, C:/Users/thomw/nevermore/app/assets/stylesheets/hours.scss */
+.late-col {
+  background-color: #7cc13c;
+}
+
+/* line 62, C:/Users/thomw/nevermore/app/assets/stylesheets/hours.scss */
+.col-early {
+  cursor: pointer;
+  background-color: #813cc1;
+}
+
+/* line 66, C:/Users/thomw/nevermore/app/assets/stylesheets/hours.scss */
+.col-early:hover {
+  color: white;
+  background-color: #ff7033;
+}
+
+/* line 70, C:/Users/thomw/nevermore/app/assets/stylesheets/hours.scss */
+.col-early:hover p {
+  font-size: 300%;
+}
+
+/* line 73, C:/Users/thomw/nevermore/app/assets/stylesheets/hours.scss */
+.col-late {
+  background-color: #7cc13c;
+  cursor: pointer;
+}
+
+/* line 77, C:/Users/thomw/nevermore/app/assets/stylesheets/hours.scss */
+.col-late:hover {
+  color: white;
+  background-color: #ff7033;
+}
+
+/* line 81, C:/Users/thomw/nevermore/app/assets/stylesheets/hours.scss */
+.col-late:hover p {
+  font-size: 300%;
+}
+
+@media (min-width: 768px) {
+  /* line 87, C:/Users/thomw/nevermore/app/assets/stylesheets/hours.scss */
+  .cal-col p {
+    font-size: 200%;
+  }
+
+  /* line 90, C:/Users/thomw/nevermore/app/assets/stylesheets/hours.scss */
+  .times-col p {
+    font-size: 250%;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  /* line 98, C:/Users/thomw/nevermore/app/assets/stylesheets/hours.scss */
+  .col-early:hover {
+    color: white;
+    background-color: #813cc1;
+  }
+
+  /* line 102, C:/Users/thomw/nevermore/app/assets/stylesheets/hours.scss */
+  .col-late:hover {
+    background-color: #7cc13c;
+  }
+
+  /* line 105, C:/Users/thomw/nevermore/app/assets/stylesheets/hours.scss */
+  .col-late:hover p {
+    font-size: 200%;
+  }
+
+  /* line 108, C:/Users/thomw/nevermore/app/assets/stylesheets/hours.scss */
+  .col-early:hover p {
+    font-size: 200%;
+  }
+
+  /* line 111, C:/Users/thomw/nevermore/app/assets/stylesheets/hours.scss */
+  .col-early {
+    cursor: inherit;
+  }
+
+  /* line 114, C:/Users/thomw/nevermore/app/assets/stylesheets/hours.scss */
+  .col-late {
+    cursor: inherit;
+  }
+}
+/* line 4, C:/Users/thomw/nevermore/app/assets/stylesheets/photos.scss */
+.featured-photo {
+  width: 100%;
+  border-style: solid;
+  border-width: 2px;
+  margin: 5% 0%;
+  padding: 0;
+}
+/* line 1, C:/Users/thomw/nevermore/app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: black;
+  color: #333;
+  margin: 33px;
+  font-family: 'IM Fell English', serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 10, C:/Users/thomw/nevermore/app/assets/stylesheets/scaffolds.scss */
+h1, h2, h3, h4 {
+  font-family: 'IM Fell English', serif;
+}
+
+/* line 14, C:/Users/thomw/nevermore/app/assets/stylesheets/scaffolds.scss */
+h1 {
+  text-align: center;
+  text-transform: capitalize;
+  color: #CCCCCC;
+  font-size: 2em;
+}
+
+/* line 20, C:/Users/thomw/nevermore/app/assets/stylesheets/scaffolds.scss */
+h2 {
+  text-transform: capitalize;
+  color: #CCCCCC;
+  font-size: 1.5em;
+}
+
+/* line 26, C:/Users/thomw/nevermore/app/assets/stylesheets/scaffolds.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+/* line 31, C:/Users/thomw/nevermore/app/assets/stylesheets/scaffolds.scss */
+p {
+  color: ghostwhite;
+}
+
+/* line 35, C:/Users/thomw/nevermore/app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 41, C:/Users/thomw/nevermore/app/assets/stylesheets/scaffolds.scss */
+a {
+  color: #000;
+}
+/* line 44, C:/Users/thomw/nevermore/app/assets/stylesheets/scaffolds.scss */
+a:visited {
+  color: #666;
+}
+/* line 48, C:/Users/thomw/nevermore/app/assets/stylesheets/scaffolds.scss */
+a:hover {
+  color: #ff7033;
+  text-decoration: none;
+}
+
+/* line 53, C:/Users/thomw/nevermore/app/assets/stylesheets/scaffolds.scss */
+th {
+  padding-bottom: 5px;
+}
+
+/* line 57, C:/Users/thomw/nevermore/app/assets/stylesheets/scaffolds.scss */
+td {
+  padding: 0 5px 7px;
+}
+
+/* line 62, C:/Users/thomw/nevermore/app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 67, C:/Users/thomw/nevermore/app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 71, C:/Users/thomw/nevermore/app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 77, C:/Users/thomw/nevermore/app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px 7px 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 84, C:/Users/thomw/nevermore/app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px -7px 0;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 94, C:/Users/thomw/nevermore/app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+
+/* line 100, C:/Users/thomw/nevermore/app/assets/stylesheets/scaffolds.scss */
+label {
+  display: block;
+}
+
+/* line 104, C:/Users/thomw/nevermore/app/assets/stylesheets/scaffolds.scss */
+.spooky-button {
+  background-color: #813cc1;
+  border-style: double;
+  border-width: 5px;
+  border-color: black;
+}
+
+/* line 110, C:/Users/thomw/nevermore/app/assets/stylesheets/scaffolds.scss */
+.spooky-button:hover {
+  color: #7cc13c;
+  background-color: black;
+  border-color: black;
+}
+
+/* line 115, C:/Users/thomw/nevermore/app/assets/stylesheets/scaffolds.scss */
+.spooky-button:active {
+  background-color: black !important;
+  border-color: black !important;
+}
+
+/* line 119, C:/Users/thomw/nevermore/app/assets/stylesheets/scaffolds.scss */
+.spooky-button:focus {
+  background-color: black !important;
+  border-color: black !important;
+  box-shadow: none !important;
+}
+
+/* line 124, C:/Users/thomw/nevermore/app/assets/stylesheets/scaffolds.scss */
+.spooky-button p {
+  margin: 0;
+}
+
+/* line 127, C:/Users/thomw/nevermore/app/assets/stylesheets/scaffolds.scss */
+.section-heading {
+  margin: 5% 0 3% 0;
+  font-size: 3em;
+  font-weight: 600;
+}
+
+/* line 132, C:/Users/thomw/nevermore/app/assets/stylesheets/scaffolds.scss */
+.page-footer {
+  padding-top: 5%;
+}
+
+/* line 135, C:/Users/thomw/nevermore/app/assets/stylesheets/scaffolds.scss */
+.page-footer a:not([href]):not([tabindex]) {
+  color: #7cc13c;
+  font-size: 1.75em;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* line 141, C:/Users/thomw/nevermore/app/assets/stylesheets/scaffolds.scss */
+.sub-page {
+  margin-top: 15%;
+}
+
+/* line 144, C:/Users/thomw/nevermore/app/assets/stylesheets/scaffolds.scss */
+button:focus {
+  outline: 0px;
+}
+
+/* line 147, C:/Users/thomw/nevermore/app/assets/stylesheets/scaffolds.scss */
+.btn:active {
+  background-color: black;
+}
+
+/* line 150, C:/Users/thomw/nevermore/app/assets/stylesheets/scaffolds.scss */
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle:active {
+  background: none;
+}
+
+/* line 153, C:/Users/thomw/nevermore/app/assets/stylesheets/scaffolds.scss */
+.btn-primary.focus, .btn-primary:focus {
+  box-shadow: none;
+}
+
+/* line 156, C:/Users/thomw/nevermore/app/assets/stylesheets/scaffolds.scss */
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: none;
+}
+/* line 10, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.fixed-top {
+  position: fixed;
+}
+
+/* line 13, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+nav.navbar {
+  background: black;
+  background: linear-gradient(180deg, black 47%, rgba(0, 0, 0, 0.4992867332) 72%, rgba(0, 0, 0, 0) 97%);
+  margin: 0;
+}
+
+/* line 18, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.navbar-nav a {
+  padding: 10% 0%;
+  margin-right: 5%;
+}
+
+/* line 22, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.drop-nav-row {
+  background: black;
+  background: linear-gradient(90deg, black 2%, rgba(0, 0, 0, 0.4992867332) 25%, rgba(0, 0, 0, 0) 50%);
+}
+
+/* line 26, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.brand-col {
+  text-align: center;
+}
+
+/* line 29, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.navbar.col {
+  padding: 0;
+}
+
+/* line 32, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.navbar-toggler {
+  margin-left: 50%;
+  background-color: black;
+}
+
+/* line 36, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.navbar-toggler:focus {
+  outline: 0px !important;
+}
+
+/* line 40, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+nav {
+  margin: 2% 8% 0% 8%;
+  padding: 0 0 0 0;
+}
+/* line 43, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+nav .navbar-brand {
+  font-size: 30px;
+}
+/* line 44, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+nav .navbar-toggle {
+  margin: 0 0 0 0;
+}
+/* line 47, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+nav a {
+  color: ghostwhite;
+  font-size: 4vw;
+  line-height: 200%;
+  transition: all 0.3s ease;
+}
+/* line 53, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+nav a:hover {
+  color: #7cc13c;
+}
+/* line 56, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+nav a:active {
+  color: #7cc13c;
+}
+
+/* line 61, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.navbar-nav {
+  color: white;
+  text-transform: capitalize;
+}
+
+/* line 65, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.navbar-dark .navbar-nav .nav-link {
+  color: #FFFFFF;
+}
+
+/* line 68, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.navbar-logo {
+  width: 100%;
+}
+
+/* line 71, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.navbar-brand {
+  width: 75%;
+  margin: 0 11%;
+}
+
+/* line 76, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+nav.navbar.shrink {
+  background-color: black, 0.5;
+  margin: 0 0% 0 0%;
+  padding: 0 3.5% 0 3.5%;
+  min-height: 35px;
+}
+/* line 81, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+nav.navbar.shrink .logoline {
+  font-size: 20px;
+}
+/* line 82, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+nav.navbar.shrink a {
+  font-size: 4vw;
+  padding-bottom: 10px !important;
+  padding-top: 10px !important;
+}
+/* line 87, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+nav.navbar.shrink .navbar-toggle {
+  margin: 8% 15px 8px 0;
+  padding: 4px 5px;
+}
+/* line 93, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+nav.navbar.shrink .navbar-brand {
+  width: 50%;
+  margin: 0 23%;
+}
+/* line 97, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+nav.navbar.shrink .navbar-toggler {
+  margin-top: 10%;
+}
+
+/* line 101, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.page-content {
+  padding: 5% 0 0 0;
+}
+
+/* line 105, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.nav-tickets {
+  color: #7cc13c;
+  cursor: pointer;
+}
+
+/* line 109, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+a.nav-tickets:hover {
+  color: #7cc13c !important;
+}
+
+/* line 112, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+a.nav-tickets:visited {
+  color: #666 !important;
+}
+
+/* line 119, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.notice {
+  position: absolute;
+}
+
+/* line 122, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.alert {
+  position: absolute;
+}
+
+/* line 128, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+video {
+  width: 100%;
+}
+
+/* line 131, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+#player {
+  display: none;
+}
+
+/* line 134, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 137, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+#page-banner {
+  text-align: center;
+  position: relative;
+  background-color: black;
+  color: #ffffff;
+  height: 55vw;
+  /**! Confirm this works in all browsers**/
+  overflow: hidden;
+  margin-top: 15%;
+}
+
+/* line 146, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.bg-image {
+  background-size: cover;
+  background-position: center center;
+}
+
+/* line 150, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.overlay {
+  position: relative;
+  background-color: transparent;
+  height: 84%;
+  width: 100%;
+  z-index: 2;
+}
+
+/* line 157, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.overlay-bottom {
+  position: relative;
+  background: black;
+  background: linear-gradient(90deg, black 0%, #7cc13c 50%, black 100%);
+  height: 50%;
+  width: 100%;
+  z-index: 2;
+  display: none;
+}
+
+/* line 166, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.non-overlay-bottom {
+  background: linear-gradient(90deg, black 0%, #7cc13c 50%, black 100%);
+  text-align: center;
+  padding: 1% 0;
+}
+
+/* line 171, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.inner {
+  background-color: black;
+  padding-top: 3.2%;
+  padding-bottom: 3%;
+}
+
+/* line 176, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.video_wrap {
+  /**height:100%;**/
+  width: 100%;
+  position: absolute;
+  left: 0;
+  overflow: hidden;
+  top: 0;
+  padding-bottom: 56.5%;
+}
+
+/* line 185, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+video::-webkit-media-controls-overlay-play-button {
+  display: none;
+}
+
+/* line 188, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+iframe {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+/* line 196, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 201, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+#video-screen {
+  background: rgba(76, 175, 80, 0.3);
+  position: fixed;
+  z-index: -98;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 210, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.video-header-left {
+  font-size: 1.5em;
+  text-align: left;
+  padding-left: 5%;
+  text-shadow: 0 0 3px #7cc13c;
+}
+
+/* line 216, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.video-header-right {
+  font-size: 1.5em;
+  text-align: right;
+  padding-right: 5%;
+  text-shadow: 0 0 5px #7cc13c;
+}
+
+/* line 227, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.featured-on {
+  padding-top: 1%;
+  vertical-align: middle;
+}
+
+/* line 231, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.featured-on h2 {
+  text-align: center;
+}
+
+/* line 234, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.featured-on h1 {
+  font-size: 1em;
+}
+
+/* line 237, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.featured-on-logo {
+  width: 100%;
+  max-height: 8vw;
+  margin: 0;
+  padding: 5% 0;
+}
+
+/* line 245, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.tag-line {
+  padding-top: 2%;
+}
+
+/* line 248, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.tag-line h1 {
+  font-weight: 600;
+  color: white;
+  font-size: 1.25em;
+  text-shadow: black 2px 2px;
+}
+
+/* line 254, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.tag-line i {
+  display: none;
+  font-size: 1em;
+  padding: 0 1%;
+  text-shadow: black 2px 2px;
+}
+
+/* line 260, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.social-icon a {
+  color: white;
+}
+
+/* line 263, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.social-icon a:hover {
+  color: black;
+  transition: 500ms;
+}
+
+/* line 270, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.buy-tickets-now {
+  background-image: url(skulls-bg.jpg);
+  background-size: cover;
+  text-align: center;
+  padding: 8% 0;
+}
+
+/* line 276, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.buy-tickets-now .spooky-button {
+  background-color: rgba(0, 153, 0, 0.6);
+  border-style: none;
+}
+
+/* line 280, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.buy-tickets-now h2 {
+  text-shadow: black 2px 4px;
+  color: ghostwhite;
+  padding-top: 6%;
+  font-size: 1em;
+  font-weight: 900;
+}
+
+/* line 287, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.buy-tickets-now .spooky-button:hover {
+  background-color: black;
+  box-shadow: 2px 2px 25px black;
+}
+
+/* line 291, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.buy-tickets-now .spooky-button:hover h2 {
+  color: #7cc13c;
+}
+
+/* line 297, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.calendar-section {
+  font-weight: 600;
+  text-shadow: 2px 2px 10px black;
+  background-image: url(scream.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 8% 0 8% 0;
+}
+
+/* line 306, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.calendar-section h1 {
+  margin: 0%;
+}
+
+/* line 310, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.event-dates-header {
+  font-size: 1.5em;
+  line-height: 0;
+}
+
+/* line 315, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.event-dates {
+  color: #7cc13c;
+  font-size: 1.8em;
+  line-height: 0;
+}
+
+/* line 321, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.event-dates h1 {
+  color: #7cc13c;
+  font-size: 2em;
+}
+
+/* line 328, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+#tickets {
+  padding: 1% 5% 0% 5%;
+  background: url(/assets/street-bg-1f2e6caf6e42f4fbe2b5b5efef114290e32b39abfd92537f1d8d29da9d2f8e22.jpg);
+  background-size: cover;
+}
+
+/* line 333, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+#tickets-sub {
+  padding: 2% 1%;
+  background: url(/assets/clock-bg-aa0b2eb574b2eba2f8cda520cddf872eb440788acdd71442219313f5ad859232.jpg);
+  background-size: cover;
+}
+
+/* line 338, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.ticket-row {
+  border-style: solid;
+  background-color: black;
+  opacity: 0.7;
+  border-color: ghostwhite;
+  margin-bottom: 4%;
+}
+
+/* line 344, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+#tickets .col-md-2 {
+  border-style: solid;
+  background-color: black;
+  opacity: 0.9;
+  border-color: ghostwhite;
+}
+
+/* line 349, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+#tickets-sub .col-md-2 {
+  border-style: solid;
+  background-color: black;
+  opacity: 0.9;
+  border-color: ghostwhite;
+}
+
+/* line 355, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.ticket-chart {
+  padding: 1.5px;
+}
+
+/* line 358, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.ticket-chart h2 {
+  font-size: 1.6em;
+  color: #7cc13c;
+}
+
+/* line 362, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.ticket-chart p {
+  color: ghostwhite;
+}
+
+/* line 365, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.ticket-description {
+  padding: 2%;
+}
+
+/* line 368, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.ticket-price {
+  border-style: none;
+  border-color: ghostwhite;
+  text-align: center;
+  border-bottom: none;
+  border-top: none;
+}
+
+/* line 375, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.ticket-price-underline {
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  vertical-align: middle;
+}
+
+/* line 384, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.ticket-price-underline p {
+  padding: 4% 0 4% 0%;
+  margin: 0;
+  font-size: 3vw;
+  height: 3vw;
+  min-height: 32px;
+}
+
+/* line 391, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.friday p {
+  padding-top: 4%;
+}
+
+/* line 394, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.tickets-page p {
+  height: 4vw;
+}
+
+/* line 397, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.ticket-price h2 {
+  font-size: 3em;
+  padding: 5%;
+}
+
+/* line 401, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.ticket-button {
+  border: none;
+  padding: 1% 2%;
+  margin: 0% 0% 0% 2%;
+}
+
+/* line 406, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.ticket-button h2 {
+  margin: 0;
+  color: white;
+  font-size: 1em;
+}
+
+/* line 415, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.admin-page {
+  padding: 10% 20%;
+  background-color: #ff7033;
+}
+
+/* line 422, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.contact-section {
+  background-image: url(skulls-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 7% 12% 7% 12%;
+}
+
+/* line 428, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+#mc_embed_signup {
+  background: #000;
+  clear: left;
+}
+
+/* line 432, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+#mc_embed_signup p {
+  color: white;
+}
+
+/* line 435, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+label {
+  color: ghostwhite;
+}
+
+/* line 445, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.seo-blurb h2 {
+  color: #7cc13c;
+}
+
+/* line 450, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.warning {
+  padding: 2% 2% 2% 2%;
+  background-color: #ff7033;
+}
+
+/* line 454, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.warning h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 600;
+  color: black;
+}
+
+/* line 459, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.warning h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+  color: black;
+}
+
+/* line 466, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.map {
+  overflow: hidden;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+/* line 474, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.phrasable.phrasable-on:hover {
+  background-color: green;
+}
+
+/* line 480, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+#floating_button {
+  position: fixed;
+  right: 8%;
+  top: 2%;
+}
+
+/* line 485, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+#floating_button:focus {
+  border: none;
+}
+
+/* line 488, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+#floating_button h2 {
+  color: ghostwhite;
+  font-size: 3.75vw;
+  text-shadow: 2px 2px 4px #000;
+  border: none;
+  margin-bottom: 0;
+}
+
+/* line 495, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.floating-spooky {
+  border: none;
+  border-radius: 7.5%;
+  background-color: #7cc13c;
+  cursor: pointer;
+}
+
+/* line 501, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.floating-spooky:active {
+  border: none;
+}
+
+/* line 504, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.floating-spooky:hover {
+  background-color: transparent;
+  transition: 500ms;
+}
+
+/* line 508, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.floating-spooky:active {
+  background-color: #000;
+}
+
+@keyframes glowing {
+  0% {
+    box-shadow: 0 0 -10px #c4a300;
+  }
+  40% {
+    box-shadow: 0 0 20px #c4a300;
+  }
+  60% {
+    box-shadow: 0 0 20px #c4a300;
+  }
+  100% {
+    box-shadow: 0 0 -10px #c4a300;
+  }
+}
+/* line 518, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.button-glow {
+  animation: glowing 2000ms infinite;
+}
+
+/* line 524, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.phrasable.phrasable-on:hover {
+  background-color: green !important;
+}
+
+/* line 530, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.clickable-carousel {
+  cursor: pointer;
+}
+
+/* line 536, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.show-in-ie {
+  display: none;
+}
+
+/* line 539, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+.attractions-ie-wrap {
+  display: none;
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  /* line 549, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  #player {
+    display: inherit;
+  }
+
+  /* line 552, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  #player-gif {
+    display: none;
+  }
+
+  /* line 555, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  #page-banner {
+    height: 55vw;
+    margin-top: 5%;
+  }
+}
+@media (min-width: 576px) {
+  /* line 563, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  .ticket-price-underline p {
+    font-size: 2vw;
+  }
+
+  /* line 566, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  #floating-button {
+    right: 10%;
+  }
+}
+@media (min-width: 768px) {
+  /* line 575, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  nav.navbar {
+    background: black;
+    background: linear-gradient(180deg, black 47%, rgba(0, 0, 0, 0.4992867332) 72%, rgba(0, 0, 0, 0) 97%);
+    margin: 0;
+  }
+
+  /* line 580, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  .drop-nav-row {
+    background: none;
+  }
+
+  /* line 583, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  .tag-line {
+    padding-top: 1%;
+  }
+
+  /* line 586, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  .tag-line h1 {
+    font-weight: 600;
+    color: white;
+    font-size: 2em;
+  }
+
+  /* line 591, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  .tag-line i {
+    display: inherit;
+    font-size: 2em;
+    padding: 0 1%;
+  }
+
+  /* line 596, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  .tag-line-logo {
+    width: 3.5%;
+  }
+
+  /* line 599, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  #page-banner {
+    height: 45vw;
+    margin-top: 4%;
+  }
+
+  /* line 603, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  .buy-now h2 {
+    padding-top: 5%;
+    font-size: 2em;
+  }
+
+  /* line 607, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  .ticket-price-underline p {
+    font-size: 1.5vw;
+  }
+
+  /* line 610, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  #floating_button {
+    right: 5%;
+  }
+
+  /* line 613, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  #floating_button h2 {
+    padding: 3% 5%;
+    font-size: 2vw;
+  }
+
+  /* line 618, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  nav a {
+    font-size: 2vw;
+    line-height: 150%;
+  }
+
+  /* line 623, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  .featured-on h1 {
+    font-size: 2em;
+  }
+
+  /* line 626, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  .friday p {
+    padding-top: 12%;
+  }
+
+  /* line 629, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  nav.navbar.shrink a {
+    font-size: 1.5vw;
+  }
+}
+@media (min-width: 992px) {
+  /* line 636, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  .navbar-logo {
+    width: 50%;
+  }
+
+  /* line 639, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  .shrink .navbar-logo {
+    display: none;
+  }
+
+  /* line 642, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  .navbar-nav a {
+    padding: 0;
+  }
+
+  /* line 645, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  .tag-line {
+    padding-top: 1%;
+  }
+
+  /* line 648, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  .tag-line h1 {
+    font-weight: 600;
+    color: white;
+    font-size: 2.5em;
+    margin-top: 0%;
+  }
+
+  /* line 654, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  .tag-line i {
+    display: inherit;
+    font-size: 2.5em;
+    padding: 0% 1%;
+  }
+
+  /* line 659, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  .ticket-price-underline p {
+    font-size: 1.4vw;
+  }
+
+  /* line 662, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  .ticket-chart h2 {
+    font-size: 2em;
+  }
+
+  /* line 665, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  .ticket-button h2 {
+    font-size: 1em;
+  }
+
+  /* line 668, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  .ticket-price h2 {
+    font-size: 3em;
+  }
+
+  /* line 671, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  .calendar-section {
+    padding: 1% 0 0% 0;
+  }
+
+  /* line 674, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  .carousel-overlay {
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    z-index: 10;
+  }
+
+  /* line 681, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  .carousel-overlay h2 {
+    font-size: 2.5em;
+  }
+
+  /* line 684, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  .carousel-overlay i {
+    font-size: 4em;
+  }
+
+  /* line 687, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  #page-banner {
+    height: 50vw;
+    margin-top: 4%;
+  }
+
+  /* line 691, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  #floating_button {
+    right: 5%;
+  }
+
+  /* line 694, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  #floating_button h2 {
+    font-size: 1.5vw;
+  }
+
+  /* line 698, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  nav a {
+    font-size: 1.5vw;
+    line-height: 100%;
+  }
+
+  /* line 703, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  .contact-form-wrapper {
+    width: 100%;
+  }
+
+  /* line 706, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  #mc_embed_signup form {
+    padding-right: 3% !important;
+  }
+
+  /* line 709, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  .contact-section {
+    padding: 7% 30%;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 716, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  .tag-line {
+    padding-top: 1%;
+  }
+
+  /* line 719, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  .tag-line h1 {
+    font-weight: 600;
+    color: white;
+    font-size: 3em;
+  }
+
+  /* line 724, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  .tag-line i {
+    display: inherit;
+    font-size: 3em;
+    padding: 0 1%;
+  }
+
+  /* line 729, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  #page-banner {
+    height: 40vw;
+    margin-top: 3%;
+  }
+
+  /* line 733, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  .ticket-price-underline p {
+    font-size: 1.2vw;
+  }
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  /* line 743, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  .navbar-logo {
+    position: fixed;
+    top: 5%;
+    left: 34.5%;
+    width: 30vw;
+  }
+
+  /* line 749, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  .navbar-nav a {
+    padding-left: 25%;
+  }
+
+  /* line 752, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  .hide-in-ie {
+    display: none;
+  }
+
+  /* line 755, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  .show-in-ie {
+    display: inherit;
+  }
+
+  /* line 758, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  .show-in-ie a {
+    color: #7c13cc;
+  }
+
+  /* line 761, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  .show-in-ie a:hover {
+    color: #7cc13c;
+  }
+
+  /* line 766, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  card-row-mobile {
+    display: inline-flex;
+  }
+
+  /* line 769, C:/Users/thomw/nevermore/app/assets/stylesheets/simple_pages.scss */
+  .attractions-ie-wrap {
+    display: inherit;
+  }
+}
+/* line 5, C:/Users/thomw/nevermore/app/assets/stylesheets/users.scss */
+.user-page {
+  padding: 5% 25%;
+  background-color: ghostwhite;
+}
+/* line 5, C:/Users/thomw/nevermore/app/assets/stylesheets/waiver.scss */
+.waiver-page li {
+  color: ghostwhite;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+
+
+ */
+
+
+
+/* line 1, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_fonts.scss */
+#phrasing-edit-mode-bubble {
+  webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  background: white;
+  color: grey;
+  border: 2px solid #EFEFEF;
+  position: fixed;
+  width: 130px;
+  height: 135px;
+  bottom: 10px;
+  right: 10px;
+  z-index: 9999;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+/* line 2, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_fonts.scss */
+#phrasing-edit-mode-bubble *, #phrasing-edit-mode-bubble *:after, #phrasing-edit-mode-bubble *:before {
+  webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+/* line 23, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_fonts.scss */
+#phrasing-edit-mode-bubble p {
+  line-height: 20px;
+}
+/* line 26, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_fonts.scss */
+#phrasing-edit-mode-bubble ::selection {
+  color: grey;
+  background: white;
+}
+/* line 28, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_fonts.scss */
+#phrasing-edit-mode-bubble #phrasing-edit-mode, #phrasing-edit-mode-bubble #phrasing-saved-status, #phrasing-edit-mode-bubble #phrasing-edit-all-phrases {
+  height: 32px;
+  margin-top: 10px;
+}
+/* line 33, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_fonts.scss */
+#phrasing-edit-mode-bubble #phrasing-edit-mode-headline p, #phrasing-edit-mode-bubble #phrasing-edit-all-phrases-headline p, #phrasing-edit-mode-bubble #phrasing-saved-status-headline p {
+  display: inline;
+}
+/* line 38, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_fonts.scss */
+#phrasing-edit-mode-bubble #phrasing-edit-mode-headline {
+  height: 30px;
+  width: 45px;
+  float: left;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+/* line 45, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_fonts.scss */
+#phrasing-edit-mode-bubble #phrasing-onoffswitch {
+  float: left;
+}
+/* line 49, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_fonts.scss */
+#phrasing-edit-mode-bubble .onoffswitch {
+  position: relative;
+  width: 60px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+/* line 52, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_fonts.scss */
+#phrasing-edit-mode-bubble .onoffswitch .onoffswitch-checkbox {
+  display: none;
+}
+/* line 55, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_fonts.scss */
+#phrasing-edit-mode-bubble .onoffswitch .onoffswitch-label {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  border: 2px solid #CCCCCC;
+  border-radius: 5px;
+}
+/* line 59, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_fonts.scss */
+#phrasing-edit-mode-bubble .onoffswitch .onoffswitch-inner {
+  width: 200%;
+  margin-left: -100%;
+  -moz-transition: margin 0.3s ease-in 0s;
+  -webkit-transition: margin 0.3s ease-in 0s;
+  -o-transition: margin 0.3s ease-in 0s;
+  transition: margin 0.3s ease-in 0s;
+}
+/* line 63, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_fonts.scss */
+#phrasing-edit-mode-bubble .onoffswitch .onoffswitch-inner:before, #phrasing-edit-mode-bubble .onoffswitch .onoffswitch-inner:after {
+  float: left;
+  width: 50%;
+  height: 25px;
+  padding: 0;
+  line-height: 25px;
+  font-size: 40px;
+  color: white;
+  font-family: Trebuchet, Arial, sans-serif;
+  font-weight: bold;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  content: "";
+}
+/* line 68, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_fonts.scss */
+#phrasing-edit-mode-bubble .onoffswitch .onoffswitch-inner:before {
+  padding-left: 10px;
+  background-color: #56AE45;
+}
+/* line 72, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_fonts.scss */
+#phrasing-edit-mode-bubble .onoffswitch .onoffswitch-inner:after {
+  padding-right: 10px;
+  background-color: #CCCCCC;
+  text-align: right;
+}
+/* line 78, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_fonts.scss */
+#phrasing-edit-mode-bubble .onoffswitch .onoffswitch-switch {
+  width: 27px;
+  margin: 0px;
+  background: #FFFFFF;
+  border: 3px solid #CCCCCC;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 29px;
+  -moz-transition: all 0.3s ease-in 0s;
+  -webkit-transition: all 0.3s ease-in 0s;
+  -o-transition: all 0.3s ease-in 0s;
+  transition: all 0.3s ease-in 0s;
+  background-image: -moz-linear-gradient(center top, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 100%);
+  background-image: -webkit-linear-gradient(center top, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 100%);
+  background-image: -o-linear-gradient(center top, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 100%);
+  background-image: linear-gradient(center top, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 100%);
+}
+/* line 92, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_fonts.scss */
+#phrasing-edit-mode-bubble .onoffswitch .onoffswitch-checkbox:checked + .onoffswitch-label {
+  border: 2px solid #56AE45;
+}
+/* line 94, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_fonts.scss */
+#phrasing-edit-mode-bubble .onoffswitch .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+  margin-left: 0;
+}
+/* line 97, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_fonts.scss */
+#phrasing-edit-mode-bubble .onoffswitch .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+  right: 0px;
+  border: 3px solid #56AE45;
+}
+/* line 104, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_fonts.scss */
+#phrasing-edit-mode-bubble #phrasing-saved-status-headline {
+  height: 30px;
+  width: 45px;
+  float: left;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+/* line 111, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_fonts.scss */
+#phrasing-edit-mode-bubble #phrasing-saved-status-indicator {
+  float: left;
+}
+/* line 114, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_fonts.scss */
+#phrasing-edit-mode-bubble #phrasing-saved-status-indicator-circle {
+  background-color: #56AE45;
+  width: 20px;
+  height: 20px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+/* line 123, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_fonts.scss */
+#phrasing-edit-mode-bubble #phrasing-edit-all-phrases-headline {
+  height: 30px;
+  width: 45px;
+  float: left;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+/* line 130, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_fonts.scss */
+#phrasing-edit-mode-bubble #phrasing-edit-all-phrases-icon-container {
+  float: left;
+}
+/* line 132, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_fonts.scss */
+#phrasing-edit-mode-bubble #phrasing-edit-all-phrases-icon-container .phrasing-edit-all-phrases-icon {
+  margin-left: 10px;
+  margin-top: 7px;
+}
+
+/* line 5, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_edit_mode_bubble.scss */
+#phrasing-edit-mode-bubble {
+  webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  background: white;
+  color: grey;
+  border: 2px solid #EFEFEF;
+  position: fixed;
+  width: 130px;
+  height: 135px;
+  bottom: 10px;
+  right: 10px;
+  z-index: 9999;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+/* line 6, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_edit_mode_bubble.scss */
+#phrasing-edit-mode-bubble *, #phrasing-edit-mode-bubble *:after, #phrasing-edit-mode-bubble *:before {
+  webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+/* line 27, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_edit_mode_bubble.scss */
+#phrasing-edit-mode-bubble p {
+  line-height: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+/* line 32, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_edit_mode_bubble.scss */
+#phrasing-edit-mode-bubble ::selection {
+  color: grey;
+  background: white;
+}
+/* line 34, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_edit_mode_bubble.scss */
+#phrasing-edit-mode-bubble #phrasing-edit-mode, #phrasing-edit-mode-bubble #phrasing-saved-status, #phrasing-edit-mode-bubble #phrasing-edit-all-phrases {
+  height: 32px;
+  margin-top: 10px;
+}
+/* line 39, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_edit_mode_bubble.scss */
+#phrasing-edit-mode-bubble #phrasing-edit-mode-headline p, #phrasing-edit-mode-bubble #phrasing-edit-all-phrases-headline p, #phrasing-edit-mode-bubble #phrasing-saved-status-headline p {
+  display: inline;
+}
+/* line 44, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_edit_mode_bubble.scss */
+#phrasing-edit-mode-bubble #phrasing-edit-mode-headline {
+  height: 30px;
+  width: 45px;
+  float: left;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+/* line 51, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_edit_mode_bubble.scss */
+#phrasing-edit-mode-bubble #phrasing-onoffswitch {
+  float: left;
+}
+/* line 55, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_edit_mode_bubble.scss */
+#phrasing-edit-mode-bubble .onoffswitch {
+  position: relative;
+  width: 60px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+/* line 58, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_edit_mode_bubble.scss */
+#phrasing-edit-mode-bubble .onoffswitch .onoffswitch-checkbox {
+  display: none;
+}
+/* line 61, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_edit_mode_bubble.scss */
+#phrasing-edit-mode-bubble .onoffswitch .onoffswitch-label {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  border: 2px solid #CCCCCC;
+  border-radius: 5px;
+}
+/* line 65, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_edit_mode_bubble.scss */
+#phrasing-edit-mode-bubble .onoffswitch .onoffswitch-inner {
+  width: 200%;
+  margin-left: -100%;
+  -moz-transition: margin 0.3s ease-in 0s;
+  -webkit-transition: margin 0.3s ease-in 0s;
+  -o-transition: margin 0.3s ease-in 0s;
+  transition: margin 0.3s ease-in 0s;
+}
+/* line 69, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_edit_mode_bubble.scss */
+#phrasing-edit-mode-bubble .onoffswitch .onoffswitch-inner:before, #phrasing-edit-mode-bubble .onoffswitch .onoffswitch-inner:after {
+  float: left;
+  width: 50%;
+  height: 25px;
+  padding: 0;
+  line-height: 25px;
+  font-size: 40px;
+  color: white;
+  font-family: Trebuchet, Arial, sans-serif;
+  font-weight: bold;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  content: "";
+}
+/* line 74, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_edit_mode_bubble.scss */
+#phrasing-edit-mode-bubble .onoffswitch .onoffswitch-inner:before {
+  padding-left: 10px;
+  background-color: #56AE45;
+}
+/* line 78, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_edit_mode_bubble.scss */
+#phrasing-edit-mode-bubble .onoffswitch .onoffswitch-inner:after {
+  padding-right: 10px;
+  background-color: #CCCCCC;
+  text-align: right;
+}
+/* line 84, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_edit_mode_bubble.scss */
+#phrasing-edit-mode-bubble .onoffswitch .onoffswitch-switch {
+  width: 27px;
+  margin: 0px;
+  background: #FFFFFF;
+  border: 3px solid #CCCCCC;
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 29px;
+  -moz-transition: all 0.3s ease-in 0s;
+  -webkit-transition: all 0.3s ease-in 0s;
+  -o-transition: all 0.3s ease-in 0s;
+  transition: all 0.3s ease-in 0s;
+  background-image: -moz-linear-gradient(center top, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 100%);
+  background-image: -webkit-linear-gradient(center top, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 100%);
+  background-image: -o-linear-gradient(center top, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 100%);
+  background-image: linear-gradient(center top, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 100%);
+}
+/* line 98, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_edit_mode_bubble.scss */
+#phrasing-edit-mode-bubble .onoffswitch .onoffswitch-checkbox:checked + .onoffswitch-label {
+  border: 2px solid #56AE45;
+}
+/* line 100, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_edit_mode_bubble.scss */
+#phrasing-edit-mode-bubble .onoffswitch .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+  margin-left: 0;
+}
+/* line 103, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_edit_mode_bubble.scss */
+#phrasing-edit-mode-bubble .onoffswitch .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+  right: 0px;
+  border: 3px solid #56AE45;
+}
+/* line 110, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_edit_mode_bubble.scss */
+#phrasing-edit-mode-bubble #phrasing-saved-status-headline {
+  height: 30px;
+  width: 45px;
+  float: left;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+/* line 117, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_edit_mode_bubble.scss */
+#phrasing-edit-mode-bubble #phrasing-saved-status-indicator {
+  float: left;
+}
+/* line 120, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_edit_mode_bubble.scss */
+#phrasing-edit-mode-bubble #phrasing-saved-status-indicator-circle {
+  background-color: #56AE45;
+  width: 20px;
+  height: 20px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+/* line 129, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_edit_mode_bubble.scss */
+#phrasing-edit-mode-bubble #phrasing-edit-all-phrases-headline {
+  height: 30px;
+  width: 45px;
+  float: left;
+  padding-left: 15px;
+  padding-top: 5px;
+}
+/* line 136, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_edit_mode_bubble.scss */
+#phrasing-edit-mode-bubble #phrasing-edit-all-phrases-icon-container {
+  float: left;
+}
+/* line 138, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing_edit_mode_bubble.scss */
+#phrasing-edit-mode-bubble #phrasing-edit-all-phrases-icon-container .phrasing-edit-all-phrases-icon {
+  margin-left: 10px;
+  margin-top: 7px;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url(/assets/icomoon-83f1baf5e101cda918ef1723a971cb9da74dde6b5d3b90acc07b194508b7009a.eot);
+  src: url(/assets/icomoon-83f1baf5e101cda918ef1723a971cb9da74dde6b5d3b90acc07b194508b7009a.eot?#iefix) format("embedded-opentype"), url(/assets/icomoon-5e34bfdab7287646e1950d74802787fd95863577aa0fc4fa100950bac9a2d162.woff) format("woff"), url(/assets/icomoon-fdf2e1109cccf75250c88a5e2547f8a8896371e99d5169e01485c04ac7bd4573.ttf) format("truetype"), url(/assets/icomoon-9900d8223a4d99c4d35953983b66a449cb2df4a9471322db912f423299cfd771.svg#icomoon) format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/*********************************************
+ * BASE STYLES
+ *********************************************/
+/*html {
+  overflow: hidden;
+}*/
+/* line 23, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing.scss */
+.phrasable.phrasable-on {
+  border-bottom: 1px dashed black;
+}
+/* line 26, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing.scss */
+.phrasable.phrasable-on a {
+  pointer-events: none;
+  cursor: default;
+}
+/* line 31, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing.scss */
+.phrasable.phrasable-on:focus {
+  outline: none;
+}
+/* line 35, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing.scss */
+.phrasable.phrasable-on:hover {
+  background-color: #fffadc;
+  cursor: pointer;
+}
+/* line 40, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing.scss */
+.phrasable.phrasable-on.inverse {
+  border-bottom: 1px dashed white;
+}
+/* line 43, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing.scss */
+.phrasable.phrasable-on.inverse:hover {
+  background-color: #333333;
+}
+
+/*blockquote {
+  border-left: 4px solid deepskyblue;
+  margin-left: -19px;
+  padding-left: 15px;
+  margin-right: 0px;
+}*/
+/* line 57, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing.scss */
+span.no-overflow {
+  overflow: hidden;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+/* Used by the ui bubble to stop wrapping */
+/* line 65, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing.scss */
+.lengthen {
+  display: block;
+  width: 300px;
+  height: 100%;
+}
+
+/* line 71, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing.scss */
+.useicons {
+  -webkit-font-smoothing: antialiased;
+  font-size: 20px !important;
+  font-family: 'icomoon' !important;
+}
+
+/*.ui {
+  position: fixed;
+  padding: 20px;
+  width: 65px;
+  bottom: 0px;
+  left: 0px;
+  top: 0px;
+}
+
+.ui:hover button {
+  opacity: 0.4;
+}
+
+.ui button:hover {
+  opacity: 1;
+}*/
+/* line 94, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing.scss */
+.text-options button {
+  -webkit-transition: opacity 400ms;
+  -moz-transition: opacity 400ms;
+  -ms-transition: opacity 400ms;
+  -o-transition: opacity 400ms;
+  transition: opacity 400ms;
+  font-family: inherit;
+  background: none;
+  cursor: pointer;
+  font-size: 25px;
+  color: inherit;
+  opacity: 0.1;
+  padding: 0px;
+  height: 32px;
+  width: 25px;
+  border: 0px;
+}
+
+/*.quote {
+  line-height: 60px !important;
+  font-size: 49px !important;
+}*/
+/*********************************************
+ * UI BUBBLE
+ *********************************************/
+/* line 123, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing.scss */
+.text-options {
+  -webkit-transition: opacity 250ms, margin 250ms;
+  -moz-transition: opacity 250ms, margin 250ms;
+  -ms-transition: opacity 250ms, margin 250ms;
+  -o-transition: opacity 250ms, margin 250ms;
+  transition: opacity 250ms, margin 250ms;
+  position: absolute;
+  left: -999px;
+  top: -999px;
+  color: #fff;
+  height: 0px;
+  width: 0px;
+  z-index: 5;
+  margin-top: 5px;
+  opacity: 0;
+}
+/* line 130, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing.scss */
+.text-options *, .text-options *:before, .text-options *:after {
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+}
+/* line 144, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing.scss */
+.text-options.fade {
+  opacity: 0;
+  margin-top: -5px;
+}
+/* line 149, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing.scss */
+.text-options.active {
+  opacity: 1;
+  margin-top: 0px;
+}
+
+/* line 156, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing.scss */
+.text-options .options {
+  background-color: rgba(0, 0, 0, 0.9);
+  position: absolute;
+  border-radius: 5px;
+  margin-left: -48px;
+  margin-top: -46px;
+  z-index: 1000;
+  padding: 5px 4px 5px 5px;
+  width: 96px;
+  height: 40px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+/* line 177, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing.scss */
+.text-options .options.url-mode {
+  width: 275px;
+  margin-left: -137px;
+}
+/* line 181, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing.scss */
+.text-options .options.url-mode .bold, .text-options .options.url-mode .options.url-mode .italic, .text-options .options.url-mode .options.url-mode .quote {
+  width: 0px;
+  overflow: hidden;
+  margin-right: 0px;
+  opacity: 0;
+}
+/* line 188, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing.scss */
+.text-options .options.url-mode input {
+  border-left: 2px solid transparent;
+  padding-right: 5px;
+  padding-left: 5px;
+  width: 236px;
+}
+/* line 196, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing.scss */
+.text-options .options .italic {
+  font-style: italic;
+}
+/* line 199, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing.scss */
+.text-options .options .bold, .text-options .options .italic {
+  line-height: normal;
+}
+/* line 203, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing.scss */
+.text-options .options button {
+  -webkit-transition: all 250ms ease-in-out;
+  -moz-transition: all 250ms ease-in-out;
+  -ms-transition: all 250ms ease-in-out;
+  -o-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  float: left;
+  width: 28px;
+  opacity: 0.7;
+  height: 30px;
+  border-radius: 3px;
+  margin-right: 1px;
+  font-family: 'Lora', serif;
+}
+/* line 218, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing.scss */
+.text-options .options button.active {
+  background-color: rgba(255, 255, 255, 0.4);
+  opacity: 1;
+}
+/* line 223, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing.scss */
+.text-options .options button:hover {
+  opacity: 0.95;
+}
+/* line 228, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing.scss */
+.text-options .options input {
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  border-radius: 3px;
+  overflow: hidden;
+  outline: 0px;
+  height: 30px;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  float: left;
+  width: 0px;
+}
+/* line 246, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing.scss */
+.text-options .options:before {
+  content: "";
+  border-top: 5px solid rgba(0, 0, 0, 0.9);
+  border-bottom: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  position: absolute;
+  margin-left: -5px;
+  bottom: -15px;
+  height: 5px;
+  width: 0px;
+  left: 50%;
+}
+
+/* line 261, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/phrasing-4.2.1/app/assets/stylesheets/phrasing.scss */
+.url {
+  -webkit-font-smoothing: antialiased;
+}
