@@ -530,7 +530,64 @@ label {
 .clickable-carousel {
     cursor: pointer;
 }
-
+.carousel-overlay {
+        text-align: center;
+        position: absolute;
+        top: 15%;
+        left: 25%;
+        z-index: 10;
+    }
+.history-overlay h1 {
+        padding: 0%;
+        margin: 0% 0%;
+        color: #7c13cc;
+        font-size: 3.8em;
+        text-shadow: black 2px 2px; 
+        text-transform: none;
+        line-height: 1em;
+    
+    }
+.history-overlay p {
+        font-family: 'IM Fell English', serif;
+        font-size: 1.5em;
+}
+.history-overlay a {
+        color: #7cc13c;
+    }
+.history-overlay a:hover {
+        color: #7c13cc;
+    }
+.trailer-overlay {
+    top: 15%;
+    left: 30%
+}
+.trailer-overlay h1 {
+    margin: 0%;
+    padding: 0%;
+    font-size: 4em;
+}
+.trailer-overlay h2 {
+    font-family: 'IM Fell English', serif;
+    text-transform: none;
+    font-size: 2.5em;
+}
+.waiver-overlay {
+    left: 40% !important;
+}
+.waiver-overlay h1 {
+    margin: 0%;
+    padding: 0%;
+    text-transform: none;
+    text-shadow: black 2px 2px; 
+    font-size: 2.5em;
+}
+.waiver-overlay a {
+    text-decoration: underline;
+    color: #7cc13c;
+}
+.waiver-overlay a:hover {
+    color: #7c13cc;
+}
 // Turns off IE only CSS //
 
 .show-in-ie {
@@ -565,6 +622,14 @@ label {
     }
     #floating-button {
         right: 10%;
+    }
+    .carousel-overlay {
+        top: 35%;
+        left: 40%;
+    }
+    .trailer-overlay {
+        top: 45%;
+        left: 40%;
     }
 
 }
@@ -671,19 +736,6 @@ label {
     .calendar-section {
         padding: 1% 0 0% 0;
     }
-    .carousel-overlay {
-        text-align: center;
-        position: absolute;
-        top: 25%;
-        left: 25%;
-        z-index: 10;
-    }
-    .carousel-overlay h2 {
-        font-size: 2.5em;
-    }
-    .carousel-overlay i {
-        font-size: 4em;
-    }
     #page-banner {
         height: 50vw;
         margin-top: 4%;
@@ -709,6 +761,13 @@ label {
     .contact-section {
     padding: 7% 30%;
     }
+    .carousel-overlay {
+        top: 20%;
+        left: 20%;
+    }
+    .trailer-overlay {
+        left: 25%;
+    }
 }
 
 // Extra large devices (large desktops, 1200px and up)
@@ -732,6 +791,14 @@ label {
     }
         .ticket-price-underline p{
         font-size: 1.2vw;
+    }
+    .carousel-overlay {
+        top: 30%;
+        left: 30%;
+    }
+    .trailer-overlay {
+        top: 25%;
+        left: 35%;
     }
 }
 

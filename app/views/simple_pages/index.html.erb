@@ -65,40 +65,47 @@
 
 <div class="container-fluid">
     <div class="row">
-        <div class="col-sm-12 col-lg-4">
+        <div class="col-12 col-lg-4">
             <div class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <%= image_tag("fast-pass-carousel.jpg", :class => "d-block w-100 left-ad") %>
                     </div>
-                    <a href="https://www.youtube.com/watch?v=KUqKjbY1I50&feature=youtu.be" target="_blank"><div class="carousel-item clickable-carousel">
+                   <div class="carousel-item">
                         <%= image_tag("trailer.jpg", :class => "d-block w-100 left-ad") %>
-                        </div></a>
+                       <div class="carousel-overlay trailer-overlay"><h2>Watch Our</h2><h1><a href="https://youtu.be/KUqKjbY1I50" target="_blank"><i class="fa fa-play-circle" aria-hidden="true"></i></a></h1>
+                        <h2>2019 Trailer</h2>
+                            </div>
+                        </div>
                     <div class="carousel-item">
-                        <%= image_tag("food_drink.jpg", :class => "d-block w-100 left-ad") %>
+                        <%= image_tag("sideshow.jpg", :class => "d-block w-100 left-ad") %>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col-sm-12 col-lg-4 calendar-section">
+        <div class="col-12 col-lg-4 calendar-section">
             <span class="event-dates-header"><h1>Dates</h1></span><br>
             <span class="event-dates"><h1>Oct 4 - Nov 2</h1></span><br>
             <button onclick="window.location.href = '/tickets';" class="btn btn-primary spooky-button">
                 <p>Calendar <i class="far fa-calendar-alt"></i></p>
             </button>
         </div>
-        <div class="col-sm-12 col-lg-4">
+        <div class="col-12 col-lg-4">
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
-                    <div onclick="window.location.href = '/history';" class="carousel-item active clickable-carousel">
-                        <%= image_tag("history.jpg", :class => "d-block w-100 right-ad") %>
-                        
-                    </div>
-                    <div class="carousel-item">
-                        <%= image_tag("fast-pass-carousel.jpg", :class => "d-block w-100 right-ad") %>
+                    <div class="carousel-item active">
+                        <%= image_tag("history-carousel.jpg", :class => "d-block w-100 right-ad") %>
+                        <div class="carousel-overlay history-overlay"><h1>130 Years<br> of History</h1>
+                        <h2>Circa 1889</h2>
+                            <p><a href="/history">Click Here</a> to Learn More</p></div>
                     </div>
                     <div class="carousel-item">
                         <%= image_tag("food_drink.jpg", :class => "d-block w-100 right-ad") %>
+                    </div>
+                    <div class="carousel-item">
+                        <%= image_tag("raven-gear.jpg", :class => "d-block w-100 right-ad") %>
+                        <div class="carousel-overlay waiver-overlay"><h1>WARNING:<br>Not for the Faint of Heart</h1>
+                            <p>Read the <a href="/waiver">Waiver</a> First!</p></div>
                     </div>
                 </div>
             </div>
