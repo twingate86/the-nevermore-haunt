@@ -1,7 +1,14 @@
 # Set the host name for URL creation
-SitemapGenerator::Sitemap.default_host = "http://www.example.com"
+SitemapGenerator::Sitemap.default_host = "https://thenevermorehaunt.com"
 
 SitemapGenerator::Sitemap.create do
+    add '/attractions'
+    add '/directions'
+    add '/photos'
+    add '/faq'
+    add '/tickets'
+    add '/waiver'
+    add '/history'
   # Put links creation logic here.
   #
   # The root path '/' and sitemap index file are added automatically for you.
