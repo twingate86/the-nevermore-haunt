@@ -61,3 +61,4 @@ gem 'devise'
 gem "phrasing"
 gem 'cancancan', '~> 1.10'
 gem 'normalize-rails'
+gem 'sitemap_generator'
