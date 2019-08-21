@@ -1,0 +1,5 @@
+meta_product_name: "The Nevermore Haunt"
+meta_title: "The Nevermore Haunt"
+meta_description: "Maryland's Scariest Haunted House"
+meta_image: "nevermore-fb.jpg" # should exist in `app/assets/images/`
+twitter_account: "@product_twitter_account"   # required for Twitter Cards
