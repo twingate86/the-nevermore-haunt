@@ -132,12 +132,21 @@ label {
 .page-footer {
     padding-top: 5%;
 }
+.page-footer a {
+    color: #7cc13c;
+    font-size: 2em;
+    padding: 0% 3%;
+}
+.page-footer a:hover {
+    color: ghostwhite;
+}
 .page-footer a:not([href]):not([tabindex]) {
     color: #7cc13c;
     font-size: 1.75em;
     text-decoration: underline;
     cursor: pointer;
 }
+.footer-copyright
 .sub-page {
     margin-top: 15%;
 }
