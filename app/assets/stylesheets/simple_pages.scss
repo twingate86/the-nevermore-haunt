@@ -707,6 +707,8 @@ label {
     nav.navbar.shrink a{
         font-size: 1.5vw;
     }
+     .calendar-section {
+    }
 }
 
 // Large devices (desktops, 992px and up)
@@ -747,7 +749,7 @@ label {
         font-size: 3em;
     }
     .calendar-section {
-        padding: 1% 0 0% 0;
+    
     }
     #page-banner {
         height: 50vw;
@@ -781,6 +783,9 @@ label {
     .trailer-overlay {
         left: 25%;
     }
+    .calendar-section {
+        padding: 2vw 0 0 0;
+    }
 }
 
 // Extra large devices (large desktops, 1200px and up)
@@ -812,6 +817,9 @@ label {
     .trailer-overlay {
         top: 25%;
         left: 35%;
+    }
+    .calendar-section {
+        padding: 5vw 0 0 0;
     }
 }
 
