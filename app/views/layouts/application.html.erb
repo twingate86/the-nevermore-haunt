@@ -126,11 +126,17 @@
 
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav mr-auto">
-                            <%= link_to "Home", root_path %>
+                            <a onclick="window.location.href = '/';" class="nav-tickets">Home</a>
+                            <a onclick="window.location.href = '/attractions';" class="nav-tickets">Attractions</a>
+                            <a onclick="window.location.href = '/directions';" class="nav-tickets">Directions</a>
+                            <a onclick="window.location.href = '/photos';" class="nav-tickets">Photos</a>
+                            <a onclick="window.location.href = '/faq';" class="nav-tickets">FAQ</a>
+                            
+                            <!--<%= link_to "Home", root_path %>
                             <%= link_to "Attractions", attractions_path %>
                             <%= link_to "Directions", directions_path %>
                             <%= link_to "Photos", photos_path %>    
-                            <%= link_to "FAQ", faqs_path %>
+                            <%= link_to "FAQ", faqs_path %>-->
                             <a onclick="window.location.href = '/tickets';" class="nav-tickets">Tickets</a>
 
                             <!--<%= link_to "Tickets", tickets_path %>-->
