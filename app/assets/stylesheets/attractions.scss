@@ -3,71 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 // Attractions //
-.attractions {
-  padding: 2% 2%;
-  background-image: url(spooky-bg.jpg);
-  background-size: cover;
-}
-.card-container {
-  height: 22em;
-  height: 22em;
-  perspective: 600;
-  position: relative;
-  width: 100%;
-  height: 320px;
-
-}
-.card {
-  height: 100%;
-  position: absolute;
-  width: 100%;
-}
-.card:hover {
-}
-.card .side {
-  backface-visibility: hidden;
-  border-radius: 6px;
-  height: 100%;
-  position: absolute;
-  overflow: hidden;
-  width: 100%;
-  background-color: black;
-}
-.card .back {
-  background: #666;
-  color: black;
-  padding: 20% 5%;
-  text-align: center;
-  transform: rotateY(180deg);
-}
-
-.card-col {
-    padding: 10% 10%;
-}
-.card-col h2 {
-    font-size: 1.5em;
-}
-.card-row {
-    display: none;
-    margin-bottom: 10%;
-}
-.card-img {
-    position: relative;
-    width: 115%;
-}
-.card-mobile-caption {
-    position: relative;
-    background-color: black;
-    margin: 0;
-    padding: 0%;
-}
-.card-mobile-caption p {
-    color: black;
-    background-color: #666;
-    padding: 2% 2% 4% 2%;
-    margin: 0 12.05%;
-    font-weight: 800;
-}
+.attractions{background-image:url(spooky-bg.jpg);background-size:cover}.card-container{height:22em;height:22em;perspective:600px;position:relative;width:100%;height:320px}.card{height:100%;position:absolute;width:100%}.card .side{backface-visibility:hidden;border-radius:6px;height:100%;position:absolute;overflow:hidden;width:100%;background-color:#000}.card .back{background:#666;color:#000;padding:20% 5%;text-align:center;transform:rotateY(180deg)}.card-col{padding:10%}.card-col h2{font-size:1.5em}.card-row{display:none;margin-bottom:10%}.card-img{position:relative;width:115%}.card-mobile-caption{position:relative;background-color:#000;margin:0;padding:0}.card-mobile-caption p{color:#000;background-color:#666;padding:2% 2% 4%;margin:0 12.05%;font-weight:800}.attractions-about{text-align:center;padding-bottom:3%}.card-container p{color:#000;font-size:1.7vw;line-height:2vw}
 .card-row-mobile {
     .card-col {
         background-color: black;
@@ -85,15 +21,7 @@
         font-size: 2em;
     }
 }
-.attractions-about {
-    text-align: center;
-    padding-bottom: 3%;
-}
-.card-container p{
-    color: black;
-    font-size: 1.7vw;
-    line-height: 2vw;
-}
+
 
 //******** MEDIA QUERIES******** //
 
@@ -108,70 +36,7 @@
 }
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-    
-    .card-container {
-      cursor: pointer;
-      height: 22em;
-      perspective: 600;
-      position: relative;
-      width: 100%;
-      height: 420px;
-      }
-    .card {
-      height: 100%;
-      position: absolute;
-      transform-style: preserve-3d;
-      transition: all 1s ease-in-out;
-      width: 100%;
-    }
-    .card:hover {
-      transform: rotateY(180deg);
-    }
-    .card .side {
-      backface-visibility: hidden;
-      border-radius: 6px;
-      height: 100%;
-      position: absolute;
-      overflow: hidden;
-      width: 100%;
-    }
-    .card .back {
-      background: #666;
-      color: black;
-      padding: 20% 5%;
-      text-align: center;
-      transform: rotateY(180deg);
-    }
-
-    .card-col {
-        padding: 10% 10%;
-    }
-    .card-row {
-        margin-bottom: 10%;
-    }
-    .card-mobile-caption {
-        margin-top: 8%;
-    }
-    .card-row {
-        display: -webkit-box;
-    }
-    .card-row-mobile {
-        display: none;
-    }
-        .card-col {
-    padding: 0 1%;
-    }
-    .card-mobile-caption {
-        display: none;
-    }
-    .card-container {
-        height: 35vw;
-    }
-    .card-col h2 {
-    font-size: 1.2em;
-}
-}
+@media (min-width: 768px){.card-container{cursor:pointer;height:22em;perspective:600px;position:relative;width:100%;height:420px}.card{height:100%;position:absolute;transform-style:preserve-3d;transition:all 1s ease-in-out;width:100%}.card:hover{transform:rotateY(180deg)}.card .side{backface-visibility:hidden;border-radius:6px;height:100%;position:absolute;overflow:hidden;width:100%}.card .back{background:#666;color:#000;padding:20% 5%;text-align:center;transform:rotateY(180deg)}.card-col{padding:10%}.card-row{margin-bottom:10%}.card-mobile-caption{margin-top:8%}.card-row{display:-webkit-box}.card-row-mobile{display:none}.card-col{padding:0 1%}.card-mobile-caption{display:none}.card-container{height:35vw}.card-col h2{font-size:1.2em}}
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {

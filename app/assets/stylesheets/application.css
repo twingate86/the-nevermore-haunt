@@ -10,10 +10,62 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
- *= require normalize-rails
  *= require_tree .
  *= require_self
  *= require phrasing
  */
 
+.faq-page ul {
+    list-style: circle;
+}
+.faq-page li {
+    color: whitesmoke;
+    padding-top: 2%;
+}
+.faq-page h2 {
+    color: #666666;
+    padding-top: 1%;
+}
+.faq-page a {
+    color: #7cc13c;
+}
+.faq-page a:hover {
+    color: #7c13cc;
+}
+.faq-page a:visited {
+    color: #7cc13c;
+}
 
+.user-page {
+    padding: 5% 25%;
+    background-color: ghostwhite;
+}
+.waiver-page li {
+    color: ghostwhite;
+}
+
+.newspaper {
+    background-image: url(newspaper.jpg);
+    height: 32vw;
+    background-size: cover;
+    margin-bottom: 2%;
+}
+
+.history-page h3 {
+    color: #7cc13c;
+}
+
+.isaac {
+    background-image: url(isaac.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    min-height: 100vw;
+    margin: 0 2% 0 2%;
+}
+.old-town-1 {
+    background-image: url(old_town_mall_1.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    min-height: 50vw;
+    margin: 0 2% 0 2%;
+}
