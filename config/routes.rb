@@ -13,8 +13,8 @@ Rails.application.routes.draw do
   resources :directions
   resources :waiver
   resources :history
-  get 'attractions/index'
-
+  get 'attractions/index'  
+    
   devise_for :users
   resources :users
   get 'simple_pages/home'
