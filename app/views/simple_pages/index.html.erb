@@ -3,13 +3,12 @@
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- End Google Tag Manager (noscript) -->
 <section id="page-banner" class="bg-image">
-
-    <div class="video_wrap" ><div id="player"><%= video_tag "trailer_lg.mp4", poster: "video-poster.png", controls: false, autoplay: true, muted: true, loop: true %></div>
+    <%= image_tag("video-poster.png", :class => "video-replacement") %>
+    <!--<div class="video_wrap" ><div id="player"><%= video_tag "trailer_lg.mp4", poster: "video-poster.png", controls: false, autoplay: true, muted: true, loop: true %></div>
         
     <div id="player-gif"><%= video_tag "trailer_sm.mp4", poster: "video-poster.png", controls: false, autoplay: true, muted: true, loop: true, playsinline: true, :id => 'video' %></div>
-        
-    <!--<div id="player-gif"><%= image_tag("nevermore-sq.gif", :class => "mobile-gif") %> </div>-->  
-    </div>
+         
+    </div>-->
 </section>
 <section class="container-fluid">
     <div class="container-fluid tag-line non-overlay-bottom">
@@ -106,25 +105,25 @@
                     <h2>Buy <i class="fas fa-ticket-alt"></i></h2>
                     </button></h2>
 
-                <p><%= phrase('general-admission-description') %></p>
+                <p>General Admission to the The Nevermore Haunt</p>
             </div>
         </div>
         <div class="col-4 col-md-2 ticket-chart">
             <div class="ticket-price">
-                <div class="ticket-price-underline"><p><%= phrase('GA-discount-price-heading') %></p></div>
-                <h2><%= phrase('GA-discount-price') %></h2>
+                <div class="ticket-price-underline"><p>Thurs & Sundays</p></div>
+                <h2>$22</h2>
             </div>
         </div>
         <div class="col-4 col-md-2 ticket-chart">
             <div class="ticket-price">
-                <div class="ticket-price-underline"><p><%= phrase('GA-standard-price-heading') %></p></div>
-                <h2><%= phrase('GA-standard-price') %></h2>
+                <div class="ticket-price-underline"><p>Fridays</p></div>
+                <h2>$25</h2>
             </div>
         </div>
         <div class="col-4 col-md-2 ticket-chart">
             <div class="ticket-price">
-                <div class="ticket-price-underline"><p><%= phrase('GA-premium-price-heading') %></p></div>
-                <h2><%= phrase('GA-premium-price') %></h2>
+                <div class="ticket-price-underline"><p>Sat &amp; Halloween</p></div>
+                <h2>$30</h2>
             </div>
         </div>
     </div>
@@ -135,25 +134,25 @@
                     <h2>Buy <i class="fas fa-ticket-alt"></i></h2>
                     </button></h2>
 
-                <p><%= phrase('fast-pass-admission-description') %></p>
+                <p>Skip to the front of the line with Fast Pass Admission</p>
             </div>
         </div>
         <div class="col-4 col-md-2 ticket-chart">
             <div class="ticket-price">
-                <div class="ticket-price-underline"><p><%= phrase('fast-pass-discount-price-heading') %></p></div>
-                <h2><%= phrase('fast-pass-discount-price') %></h2>
+                <div class="ticket-price-underline"><p>Thurs &amp; Sundays</p></div>
+                <h2>$29</h2>
             </div>
         </div>
         <div class="col-4 col-md-2 ticket-chart">
             <div class="ticket-price">
-                <div class="ticket-price-underline"><p><%= phrase('fast-pass-standard-price-heading') %></p></div>
-                <h2><%= phrase('fast-pass-standard-price') %></h2>
+                <div class="ticket-price-underline"><p>Fridays</p></div>
+                <h2>$32</h2>
             </div>
         </div>
         <div class="col-4 col-md-2 ticket-chart">
             <div class="ticket-price">
-                <div class="ticket-price-underline"><p><%= phrase('fast-pass-premium-price-heading') %></p></div>
-                <h2><%= phrase('fast-pass-premium-price') %></h2>
+                <div class="ticket-price-underline"><p>Sat &amp; Halloween</p></div>
+                <h2>$40</h2>
             </div>
         </div>
     </div>
@@ -164,25 +163,25 @@
                     <h2>Buy <i class="fas fa-ticket-alt"></i></h2>
                     </button></h2>
 
-                <p><%= phrase('vip-admission-description') %></p>
+                <p>VIP Admission to The Nevermore Haunt! Includes fast-pass admission, one drink from the bar and a food voucher</p>
             </div>
         </div>
         <div class="col-4 col-md-2 ticket-chart">
             <div class="ticket-price">
-                <div class="ticket-price-underline"><p><%= phrase('vip-discount-price-heading') %></p></div>
-                <h2><%= phrase('vip-discount-price') %></h2>
+                <div class="ticket-price-underline"><p>Thurs &amp; Sundays</p></div>
+                <h2>$45</h2>
             </div>
         </div>
         <div class="col-4 col-md-2 ticket-chart">
             <div class="ticket-price">
-                <div class="ticket-price-underline"><p><%= phrase('vip-standard-price-heading') %></p></div>
-                <h2><%= phrase('vip-standard-price') %></h2>
+                <div class="ticket-price-underline"><p>Fridays</p></div>
+                <h2>$48</h2>
             </div>
         </div>
         <div class="col-4 col-md-2 ticket-chart">
             <div class="ticket-price">
-                <div class="ticket-price-underline"><p><%= phrase('vip-premium-price-heading') %></p></div>
-                <h2><%= phrase('vip-premium-price') %></h2>
+                <div class="ticket-price-underline"><p>Sat &amp; Halloween</p></div>
+                <h2>$56</h2>
             </div>
         </div>
     </div>
@@ -229,17 +228,17 @@
 <br><br>
 <div class="container seo-blurb">
     <h1>Baltimore, Maryland's Scariest Haunted House</h1>
-    <h2><%= phrase('home-page-blurb-1-heading') %></h2>
-    <p><%= phrase('home-page-blurb-1-body') %></p>
+    <h2>THE MOST UNIQUE AND SCARIEST HAUNTED HOUSE IN MARYLAND</h2>
+    <p>Consistently among the highest rated haunted houses in Maryland, The Nevermore Haunt is a haunted attraction unlike any other you’ve ever experienced. Open 15 nights in October, The Nevermore Haunt offers bizarre and over-the-top sideshow performances nightly, an on-site bar serving local craft beers, on site concessions and a haunted house filled with monsters, demons, and ghouls straight from your deepest, darkest fears. Expertly crafted, The Nevermore Haunt is an ever changing and developing Halloween attraction that transports you directly into sordid, macabre visions of Baltimore’s past. Come experience the most realistic and unique haunted house in Baltimore.</p>
     <br><br>
-    <h2><%= phrase('home-page-blurb-2-heading') %></h2>
-    <p><%= phrase('home-page-blurb-2-body') %></p>
+    <h2>A MARYLAND HAUNTED HOUSE UNLIKE ANY OTHER</h2>
+    <p>Ever think to yourself, “Why are all the haunted houses near me exactly the same?” Not here! Historically themed and Baltimore inspired, The Nevermore Haunt is unlike any of the other haunted houses in Maryland. Located in the heart of Baltimore Maryland, this unique event takes its inspiration from the city’s own sordid, dark past. Set in late 19th century Baltimore you’ll encounter a macabre menagerie of specters and spirits; drowned sailors, tortured factory workers, unlicensed physicians, street urchins and mysterious creatures that defy description! With an emphasis on interactive performance and immersive sets The Nevermore Haunt strives to create a Halloween event that is equal parts terrifying and entertaining for all guests. Perfect for those trembling in terror at the mere thought of entering to the most courageous, unflinching haunted house aficionados. The Nevermore Haunt is a truly Baltimore haunted house.</p>
     <br><br>
-    <h2><%= phrase('home-page-blurb-3-heading') %></h2>
-    <p><%= phrase('home-page-blurb-3-body') %></p>
+    <h2>THE MOST CONVENIENTLY LOCATED HAUNTED HOUSE IN MARYLAND</h2>
+    <p>This October Baltimore is THE place to get your Halloween thrills. Where else can you visit Maryland’s scariest haunted house, see bizarre sideshow performers, eat great food and drink local craft beers without driving for hours? Located near the heart of downtown Baltimore, The Nevermore Haunt is easily accessible from I-83, I-95.</p>
 </div>
 
 <div class="container-fluid warning">
     <h1>Warning</h1>
-    <h2><%= phrase('warning-body') %></h2>
+    <h2>THE NEVERMORE HAUNT IS NOT FOR THE FAINT OF HEART. CHILDREN UNDER 4 FEET TALL WILL NOT BE ADMITTED, CHILDREN UNDER 16 MAY ENTER ONLY WITH AN ADULT GUARDIAN. READ THE RULES AND WARNINGS BEFORE PURCHASING YOUR TICKET. ALL SALES ARE FINAL.</h2>
 </div>
