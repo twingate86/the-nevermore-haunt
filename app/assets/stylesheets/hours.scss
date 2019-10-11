@@ -43,6 +43,7 @@
     margin: 35% 0%;
 }
 
+
 .times-col {
     text-align: center;
 }
@@ -81,7 +82,9 @@
 .col-late:hover p{
     font-size: 300%;
 }
-
+.cal-col a:visted {
+    color: black;
+}
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
     .cal-col p {
