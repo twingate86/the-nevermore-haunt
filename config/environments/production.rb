@@ -81,8 +81,7 @@ Rails.application.configure do
   # config.logger = ActiveSupport::TaggedLogging.new(Syslog::Logger.new 'app-name')
     
 
-    config.assets.compile = true
-    #potential fix for background image issue
+
 
     
   if ENV["RAILS_LOG_TO_STDOUT"].present?
