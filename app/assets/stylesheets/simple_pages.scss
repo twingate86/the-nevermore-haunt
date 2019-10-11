@@ -99,6 +99,7 @@ label {
 }
 
 .written-directions {
+    margin-top: 5%;
     background-image: url(pajama-tall-bg.jpg);
     background-size: cover;
 }
@@ -113,7 +114,11 @@ label {
   height: 300px;
   width: 100%;
 }
-
+.mapiframe {
+  position: relative;
+  height: 300px;
+  width: 100%;
+}
 // Phrasing //
 
 .phrasable.phrasable-on:hover {
