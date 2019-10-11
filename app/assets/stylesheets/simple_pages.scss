@@ -38,7 +38,7 @@ video {width: 100%;}#player {display: none;}* {box-sizing:border-box;}#page-bann
 // End Social Media Bar - Tag Line //
 
 // Buy Tickets Now //
-.buy-tickets-now {background-image: url(skulls-bg.jpg);background-size: cover;text-align: center;padding: 8% 0;}.buy-tickets-now .spooky-button {background-color: rgba(0, 153, 0, 0.6);border-style: none;}.buy-tickets-now h2 {text-shadow: black 2px 4px;color: ghostwhite;padding-top: 6%;font-size: 1em;font-weight: 900;}.buy-tickets-now .spooky-button:hover {background-color: black;box-shadow: 2px 2px 25px black;}.buy-tickets-now .spooky-button:hover h2 {color: #7cc13c;}
+.buy-tickets-now {background-image: url(skulls-bg.jpg);background-size: cover;text-align: center;padding: 8% 0;}.buy-tickets-now .spooky-button {background-color: rgba(0, 153, 0, 0.6);border-style: none;}.noth2 {text-shadow: black 2px 4px;color: ghostwhite;padding-top: 6%;font-size: 1em;font-weight: 900;}.buy-tickets-now .spooky-button:hover {background-color: black;box-shadow: 2px 2px 25px black;}.buy-tickets-now .spooky-button:hover .noth2 {color: #7cc13c;}
 
 // Calendar //
 
@@ -122,7 +122,7 @@ label {
 
 // Floating Buy Tickets Button //
 
-#floating_button {position: fixed;right: 8%;top: 2%;}#floating_button:focus {border: none;}#floating_button h2 {color: ghostwhite;font-size: 3.75vw;text-shadow: 2px 2px 4px #000;border: none;margin-bottom: 0;}.floating-spooky {border: none;border-radius: 7.5%;background-color: #7cc13c;cursor: pointer;}.floating-spooky:active {border: none;}.floating-spooky:hover {background-color: transparent;transition: 500ms;}.floating-spooky:active {background-color: #000;}@keyframes glowing {0% {box-shadow: 0 0 -10px #c4a300;}40% {box-shadow: 0 0 20px #c4a300;}60% {box-shadow: 0 0 20px #c4a300;}100% {box-shadow: 0 0 -10px #c4a300;}}.button-glow {animation: glowing 2000ms infinite;}
+#floating_button {position: fixed;right: 8%;top: 2%;}#floating_button:focus {border: none;}#floating_button .noth2 {color: ghostwhite;font-size: 3.75vw;text-shadow: 2px 2px 4px #000;border: none;margin-bottom: 0;}.floating-spooky {border: none;border-radius: 7.5%;background-color: #7cc13c;cursor: pointer;}.floating-spooky:active {border: none;}.floating-spooky:hover {background-color: transparent;transition: 500ms;}.floating-spooky:active {background-color: #000;}@keyframes glowing {0% {box-shadow: 0 0 -10px #c4a300;}40% {box-shadow: 0 0 20px #c4a300;}60% {box-shadow: 0 0 20px #c4a300;}100% {box-shadow: 0 0 -10px #c4a300;}}.button-glow {animation: glowing 2000ms infinite;}
 
 // Phrasing Styles //
 
@@ -155,7 +155,7 @@ label {
      
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {nav.navbar {background: rgb(0,0,0);background: linear-gradient(180deg, rgba(0,0,0,1) 47%, rgba(0,0,0,0.49928673323823114) 72%, rgba(0,0,0,0) 97%);margin: 0;}.drop-nav-row {background: none;}.tag-line {padding-top: 1%;}.tag-line h1 {font-weight: 600;color: white;font-size: 2em;}.tag-line i {display: inherit;font-size: 2em;padding: 0 1%;}.tag-line-logo {width: 3.5%;}#page-banner {height: 45vw;margin-top: 4%;}.buy-now h2 {padding-top: 5%;font-size: 2em;}.ticket-price-underline p{font-size: 1.5vw;}#floating_button {right: 5%;}#floating_button h2{padding: 3% 5%;font-size: 2vw;}nav {a {font-size: 2vw;line-height: 150%;}}.featured-on h1 {font-size: 2em;}.friday p {padding-top: 12%;}nav.navbar.shrink a{font-size: 1.5vw;}.calendar-section {}
+@media (min-width: 768px) {nav.navbar {background: rgb(0,0,0);background: linear-gradient(180deg, rgba(0,0,0,1) 47%, rgba(0,0,0,0.49928673323823114) 72%, rgba(0,0,0,0) 97%);margin: 0;}.drop-nav-row {background: none;}.tag-line {padding-top: 1%;}.tag-line h1 {font-weight: 600;color: white;font-size: 2em;}.tag-line i {display: inherit;font-size: 2em;padding: 0 1%;}.tag-line-logo {width: 3.5%;}#page-banner {height: 45vw;margin-top: 4%;}.buy-now .noth2 {padding-top: 5%;font-size: 2em;}.ticket-price-underline p{font-size: 1.5vw;}#floating_button {right: 5%;}#floating_button .noth2 {padding: 4% 5%;font-size: 1.5vw;}nav {a {font-size: 2vw;line-height: 150%;}}.featured-on h1 {font-size: 2em;}.friday p {padding-top: 12%;}nav.navbar.shrink a{font-size: 1.5vw;}.calendar-section {}
     #map {
     height: 400px;
     width: 100%;
